@@ -1,2 +1,2 @@
-<p>hallo welt</p>
+<p>hallo mobile welt</p>
 <div id="login">-#-login-#-</div>

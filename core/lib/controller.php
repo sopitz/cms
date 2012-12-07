@@ -65,6 +65,13 @@ private $methodlist = array();
 		$apps = array();
 		
 		ob_start();
+		$browser = $this->checkBrowser();
+		switch($browser)
+		{
+			case "html5": include($this->views."".$tpl.".html5.tpl.php"); break;
+			case "html4": include($this->views."".$tpl.".html4.tpl.php"); break;
+			case "mobile": include($this->views."".$tpl.".mobile.tpl.php"); break;
+		}
 		include($this->views."".$tpl.".tpl.php");
 		$template = ob_get_clean();
 		$app = strtok($template, '-#-');
@@ -90,6 +97,7 @@ private $methodlist = array();
 		foreach ($this->appcontroller as $controller) {
 			$this->methodlist = array_filter(get_class_methods($controller), array('Controller', 'validateMethode'));
 		}
+		var_dump( $this->methodlist );
 	}
 	
 	public function getURL($menu) {
@@ -141,6 +149,12 @@ private $methodlist = array();
 		if ($var != "__construct") {
 			return true;
 		}
+	}
+	
+	public function checkBrowser() {
+		// mobile, html4, html5
+		$browser = "mobile";
+		return $browser;
 	}
 }
 ?>

@@ -18,8 +18,7 @@ $controller = new Controller($_REQUEST);
 <body>
 
 <? $controller->renderTpl("main"); ?>
-// Zugriff auf privates nicht möglich ;)
-<? echo $controller->printmethods(); ?>
+<? $controller->printmethods(); ?>
 
 <?php
 
