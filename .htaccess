@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !-d
+RewriteCond %{REQUEST_URI} !-f
+RewriteCond %{REQUEST_FILENAME} !/(apps|core|data)/
+RewriteRule $ index.php
