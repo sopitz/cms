@@ -2,6 +2,7 @@
 class Controller {
 private $webroot = "localhost/_cms/";
 private $errorreporting = "E_ALL ^ E_NOTICE";
+public  $basetitle = "CMSREVOLUTION";
 
 /** Data **/
 private $data_img = "data/img/";
