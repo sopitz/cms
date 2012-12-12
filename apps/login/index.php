@@ -1,6 +1,4 @@
-<form>
-	<input type="text" /><br />
-    <input type="password" /><br />
-    <input type="submit" />
-</form>
-    
+login view<br />
+<?
+// we have all global methods available in here or any other view we include
+?>

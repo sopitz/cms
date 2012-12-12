@@ -81,17 +81,24 @@ private $methodlist = array();
 		while ($app !== false) {
 			$i++;
 			if($i == 2 ) {
-				array_push($apps, "".$app);
-				include("".$this->apps."".$app."/index.php");
+				array_push($apps, "_".$app);
+				//include("".$this->apps."".$app."/index.php");
 				include("".$this->apps."".$app."/lib/controller.php");
-				array_push($this->appcontroller, $tmp = new $app()); //creates controller for all apps and stores them in array
-				// echo $appcontroller[0]->alive(); um auf die Methode alive() der ersten App zuzugreifen
+				
+				array_push($this->appcontroller, new $app()); //creates controller for all apps and stores them in array
+				
 			}
 			$app = strtok('-#-');
 			if ($i == 2) { $i = 0; }
 		}
 		
+		foreach($this->appcontroller as $controller)
+		{
+			$controller->setMethods(array_filter(get_class_methods($controller), array('Controller', 'validateMethode')));
+		}
+		
 		ob_end_flush();
+		//echo $this->appcontroller[0]->alive(); //um auf die Methode alive() der ersten App zuzugreifen
 	}
 	
 	public function printmethods() {
@@ -147,7 +154,7 @@ private $methodlist = array();
 	}
 	
 	private function validateMethode($var) {
-		if ($var != "__construct") {
+		if ($var != "__construct" && $var != "setMethods") {
 			return true;
 		}
 	}

@@ -18,7 +18,7 @@ $controller = new Controller($_REQUEST);
 <body>
 
 <? $controller->renderTpl("main"); ?>
-<? $controller->printmethods(); ?>
+<? //$controller->printmethods(); ?>
 
 <?php
 
