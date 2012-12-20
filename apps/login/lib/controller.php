@@ -11,6 +11,10 @@ class login {
 		return "i am alive";	
 	}
 	
+	public function test() {
+		
+	}
+		
 	private function renderpage() {
 		extract($this->globalmethods);
 		// render template for app
