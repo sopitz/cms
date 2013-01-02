@@ -26,8 +26,10 @@ private $submenu = "sub";
 
 /** list of all appcontrollers **/
 private $appcontroller = array();
-
+private $appnames = array();
 private $methodlist = array();
+
+private $assoc = array();
 
 
 
@@ -76,7 +78,6 @@ private $methodlist = array();
 		include($this->views."".$tpl.".tpl.php");
 		$template = ob_get_clean();
 		$app = strtok($template, '-#-');
-		echo $app;
 		$i = 0;
 		while ($app !== false) {
 			$i++;
@@ -86,26 +87,51 @@ private $methodlist = array();
 				include("".$this->apps."".$app."/lib/controller.php");
 				
 				array_push($this->appcontroller, new $app()); //creates controller for all apps and stores them in array
+				array_push($this->appnames, $app); //creates controller for all apps and stores them in array
 				
 			}
 			$app = strtok('-#-');
 			if ($i == 2) { $i = 0; }
 		}
 		
-		foreach($this->appcontroller as $controller)
+		foreach($this->appcontroller as $appcontroller)
 		{
-			$controller->setMethods(array_filter(get_class_methods($controller), array('Controller', 'validateMethode')));
+			array_push($this->methodlist,array_filter(get_class_methods($appcontroller), array('Controller', 'validateMethode')));
 		}
-		
+		$i = 0;
+		foreach($this->appnames as $app)
+		{
+			$methodarray = array();
+			$j = 0;
+			foreach($this->methodlist[$i] as $methodlist)
+			{
+				//echo $methodlist;
+				//$methodlist = $this->methodlist[$i];
+				$methodarray[$methodlist] = $methodlist;
+				$j++;
+			}
+			$this->assoc[$app] = $methodarray;
+			//$this->assoc[$app] = $this->methodlist[$i];
+			$i++;
+		}
+		foreach($this->appcontroller as $appcontroller)
+		{
+			$appcontroller->setMethods($this->assoc);
+		}
 		ob_end_flush();
 		//echo $this->appcontroller[0]->alive(); //um auf die Methode alive() der ersten App zuzugreifen
+		//print_r($this->methodlist);
+		//print_r($this->appnames);
+		//print_r($this->assoc);
+		
 	}
 	
 	public function printmethods() {
 		foreach ($this->appcontroller as $controller) {
 			$this->methodlist = array_filter(get_class_methods($controller), array('Controller', 'validateMethode'));
 		}
-		var_dump( $this->methodlist );
+		//var_dump( $this->methodlist );
+		//var_dump( $this->appnames );
 	}
 	
 	public function getURL($menu) {
