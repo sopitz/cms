@@ -176,6 +176,12 @@ private $assoc = array();
 	}
 	
 	public function checkBrowser() {
+		require_once('browser.php');
+		$browser = new Browser();
+		// ToDo: Klassifizierung der Konstanten in html4, html5 und mobile mit nem switch case
+		//if( $browser->getBrowser() == Browser::BROWSER_FIREFOX && $browser->getVersion() >= 2 ) {
+		//	echo 'You have FireFox version 2 or greater';
+		//}
 		// mobile, html4, html5
 		$browser = "mobile";
 		return $browser;
