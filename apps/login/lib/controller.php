@@ -4,20 +4,23 @@ class login {
 	private $arguments = "";
 	
 	###### methods #######	
-	public function playMusic($name) {
-		return $name." is playing";	
+	private function doLogin() {
+		setcookie("cr_loggedin", "Vorstand", time()+6000);
 	}
 	
-	public function stopMusik() {
-		return "music is stopped";
+	private function doLogout() {
+		setcookie("cr_loggedin", "Vorstand", time()-6000);
 	}
 	
+	public function isLoggedIn($user) {
+		if(isset($_COOKIE["cr_loggedin"])) { return true; } else { return false; }
+	}
 	
 	
 	##### internals. dont touch ######
 	public function setMethods($methods) {
+		$this->doLogin();
 		$this->globalmethods = $methods;
-		
 		// to be changed if needed
 		$this->renderpage();
 	}

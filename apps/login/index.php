@@ -1,4 +1,7 @@
 login view<br />
 <?
-$this->c("login", "playMusic", array("simon"));
+if($this->isLoggedIn("test") == true) { echo "eingeloggt"; } else { echo "nicht eingeloggt"; }
+//if ( $this->c("login", "isLoggedIn", array("User")) == 1 ) { echo "eingeloggt"; }
+
+
 ?>

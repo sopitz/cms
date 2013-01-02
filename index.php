@@ -1,4 +1,5 @@
 <?php
+ob_start();
 require_once("settings.php");
 require_once($controller);
 $controller = new Controller($_REQUEST);
@@ -21,7 +22,7 @@ $controller = new Controller($_REQUEST);
 <? //$controller->printmethods(); ?>
 
 <?php
-
+ob_end_flush();
 ?>
 </body>
 </html>

@@ -105,13 +105,10 @@ private $assoc = array();
 			$j = 0;
 			foreach($this->methodlist[$i] as $methodlist)
 			{
-				//echo $methodlist;
-				//$methodlist = $this->methodlist[$i];
 				$methodarray[$methodlist] = $methodlist;
 				$j++;
 			}
 			$this->assoc[$app] = $methodarray;
-			//$this->assoc[$app] = $this->methodlist[$i];
 			$i++;
 		}
 		foreach($this->appcontroller as $appcontroller)
@@ -119,19 +116,12 @@ private $assoc = array();
 			$appcontroller->setMethods($this->assoc);
 		}
 		ob_end_flush();
-		//echo $this->appcontroller[0]->alive(); //um auf die Methode alive() der ersten App zuzugreifen
-		//print_r($this->methodlist);
-		//print_r($this->appnames);
-		//print_r($this->assoc);
-		
 	}
 	
 	public function printmethods() {
 		foreach ($this->appcontroller as $controller) {
 			$this->methodlist = array_filter(get_class_methods($controller), array('Controller', 'validateMethode'));
 		}
-		//var_dump( $this->methodlist );
-		//var_dump( $this->appnames );
 	}
 	
 	public function getURL($menu) {
