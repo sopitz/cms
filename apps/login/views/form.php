@@ -22,7 +22,7 @@
 				   }
 			}).done(function(data) {
 				if (data == "true") {
-					console.log("logged me in");
+					$("#submit_login").val("logout");
 				}
 			});
 		});

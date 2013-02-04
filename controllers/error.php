@@ -10,7 +10,7 @@ class ErrorController extends BaseController
         $this->model = new ErrorModel();
     }
     
-    protected function badURL() {
+    protected function pageNotFound() {
         $this->view->output($this->model->pageNotFound());
     }
 }

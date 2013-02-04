@@ -8,7 +8,6 @@ class Login {
 		$data = json_decode($args);
 		$user = new User($data->user, $data->pwd);
 		DoLogin::_do($user);
-		var_dump($user);
 	}
 	
 	public function getView($view) {
