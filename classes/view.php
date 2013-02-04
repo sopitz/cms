@@ -2,8 +2,10 @@
 class View {    
     
     protected $viewFile;
+    public $controller;
     
     public function __construct($controllerClass, $action) {
+    	$this->controller = str_replace("Controller", "", $controllerClass);
         $controllerName = str_replace("Controller", "", $controllerClass);
         $this->viewFile = "views/" . $controllerName . "/" . $action . ".php";
     }

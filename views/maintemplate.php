@@ -1,4 +1,3 @@
-<!-- ToDo: make meta tags available for every single page. not just globally -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +6,8 @@
 <meta name="author" content="<?php echo $viewModel->get('author'); ?>">
 <meta charset="UTF-8">
 <title><?php echo $viewModel->get('pageTitle'); ?></title>
+<link href="views/<?php echo $this->controller?>/<?php echo $viewModel->get('css'); ?>" rel="stylesheet"></link>
+<script type="text/javascript" src="lib/jquery-1.7.2.js"></script>
 </head>
 <body>
 <?php require($this->viewFile); ?>
