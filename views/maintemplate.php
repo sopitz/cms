@@ -1,3 +1,12 @@
+<?php 
+$handle = opendir("apps");
+while (false !== ($entry = readdir($handle))) {
+	if(!($entry === "." || $entry === ".." || $entry === ".DS_Store")) {
+		require("apps/".$entry."/".$entry.".php");
+	}
+}
+closedir($handle);
+?>
 <!DOCTYPE html>
 <html>
 <head>
