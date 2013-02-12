@@ -274,7 +274,7 @@ window.Mercury = {
       allowedMimeTypes: ['image/jpeg', 'image/gif', 'image/png'],
       maxFileSize: 1235242880,
       inputName: 'image[image]',
-      url: 'http://fuba.cmsrevolution.de/ajaximage.php',
+      url: 'ajaxcontroller.php?controller=Mercury&action=upload',
       handler: false
       },
 

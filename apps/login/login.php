@@ -1,7 +1,13 @@
 <?php
 class Login {
+	public function __call($name, $arguments) {
+		//do all the rights-management stuff
+		
+		
+		return call_user_func_array(array($this, $name), $arguments);
+	}
 	
-	public function doLogin($args) {
+	private function doLogin($args) {
 		require_once("controllers/doLogin.php");
 		require("models/User.php");
 		
@@ -10,9 +16,11 @@ class Login {
 		DoLogin::_do($user);
 	}
 	
-	public function getView($view) {
+	private function getView($view) {
 		return include("views/".$view.".php");
 	}
+	
+	
 }
 
 ?>

@@ -28,8 +28,8 @@ if (!window.mercuryPackages) window.mercuryPackages = {
 	  javascripts: 'jquery-1.7.js,mercury.js',
 	  stylesheets: 'mercury.css'},
   bundled: {
-	  javascripts: 'javascripts/jquery-1.7.2.js,javascripts/mercury.js,javascripts/mercury_dialogs.js',
-	  stylesheets: 'stylesheets/mercury.bundle.css'}
+	  javascripts: 'lib/javascripts/jquery-1.7.2.js,lib/javascripts/mercury.js,lib/javascripts/mercury_dialogs.js',
+	  stylesheets: 'lib/stylesheets/mercury.bundle.css'}
 };
 
 
@@ -62,7 +62,7 @@ if (!window.mercuryPackages) window.mercuryPackages = {
   // created, so for instance you could put `visible=false`, and the editor be hidden after it's created.
   var options = {
     // A path or url from which the javascripts and css should be loaded.
-    src: 'lib/mercury',
+    src: 'apps/mercury',
     // A value defined in the packages above.  Development is used by default.  If you want to provide your own package
     // you can just define one before including this script.
     pack: 'development'

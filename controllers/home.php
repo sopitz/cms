@@ -16,6 +16,7 @@ class HomeController extends BaseController
     protected function index() {
         $this->view->output($this->model->index());
     }
+    
 }
 
 ?>
