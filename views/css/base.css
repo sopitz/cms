@@ -1,0 +1,183 @@
+@CHARSET "UTF-8";
+/* CSS Document */
+
+body {
+	width:99%;
+	font-family:"Myriad Pro";
+	overflow-y:scroll;
+	
+	background-image: -moz-linear-gradient(top, rgb(191,191,191) 7%, rgb(255,255,255) 54%);
+	background-image: -ms-linear-gradient(top, rgb(191,191,191) 7%, rgb(255,255,255) 54%);
+	background-image: -webkit-linear-gradient(top, rgb(191,191,191) 7%, rgb(255,255,255) 54%);
+	background-image: linear-gradient(top, rgb(191,191,191) 7%, rgb(255,255,255) 54%);
+	background-position: 0px 160px;
+}
+
+@font-face {
+	font-family: 'goodtime';
+	src: url('goodtime.ttf') format('truetype');
+}
+
+h1 {
+	color:rgb(162,2,2);
+	font-size:1.6em;
+	font-style:italic;
+	margin-bottom:3px;
+	max-width:49%;
+	float:left;
+}
+
+
+#wrapper {
+	width: 90%;
+	max-width:1000px;
+	margin: 0 auto;
+}
+
+#header {
+	width:100%;	
+	background-color:#FFFFFF;
+	padding-top: 30px;
+	height:120px;
+	position:relative;
+	background-image:url(../img/schachbrett.png);
+	background-position: bottom right;
+	background-repeat:no-repeat;
+	background-size:contain;
+	
+}
+
+#header .opitz {
+	text-transform:capitalize;
+	font-family:goodtime, Arial, Helvetica, sans-serif;
+	color:rgb(162,2,2);
+	font-size:36px;
+	float:left;
+}
+
+#header .system {
+	text-transform:capitalize;
+	font-family:goodtime, Arial, Helvetica, sans-serif;
+	color:rgb(0,0,0);
+	font-size:27px;
+	letter-spacing:0.5px;
+	float:left;
+}
+
+#header .logo {
+	right:20px;
+	top:22px;
+	height:130px;
+	min-width:inherit;
+	position:absolute;
+}
+
+#header #menu {
+	position:absolute;
+	bottom:-20px;
+	width:90%;
+	font-weight:600;
+	white-space:pre;
+	text-align:left;
+	height:55px;
+}
+
+#header #menu p {
+	height: 40px;
+    padding-top: 10px;
+    position: absolute;
+    top: -20px;
+}
+
+
+#header #menu a {
+	text-decoration:none;
+	
+}
+
+#content_wrapper {
+	width:100%;
+	position:relative;
+	margin-top:20px;
+	padding-top:20px;
+}
+
+#content_wrapper .text {
+	font-size:1em;
+	text-align:justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	-webkit-column-count: 2;
+	-moz-column-count: 2;
+	-ms-column-count: 2;
+	column-count: 2;
+}
+
+#content_wrapper .subheader {
+	font-size:1.2em;
+	text-align:left;
+	hyphens: auto;
+	width:49%;
+	float:left;
+	display:block;
+}
+
+#content_wrapper .dosomething {
+	font-size:1em;
+	text-align:justify;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	font-weight:bold;
+	padding-top:20px;
+	width:100%;
+	text-align:center;
+}
+
+
+#content_wrapper .picture {
+	border: 5px solid #FFF;
+	width:300px;
+	float:right;
+	margin-left:20px;
+	margin-right:100px;
+	position: relative;
+	top:-30px;
+}
+
+#footer {
+	border-top: 1px solid rgb(162,2,2);
+	width:100%;
+	height:30px;
+	position:relative;
+	margin-top:30px;
+	padding-top:7px;
+	font-size:12px;
+}
+
+#footer #menu {
+	float:left;
+	width: 80%;
+	font-weight:600;
+	white-space:pre;
+	text-align:left;
+
+}
+
+#footer #copyright {
+	float:right;
+	width:19%;
+	text-align:right;
+}
+
+.follow {
+	position: absolute;
+	z-index:999;
+	background-image:url(../img/sprites.png);
+	width:14px;
+	height:8px;
+	margin-top:-7px;
+}
