@@ -24,9 +24,21 @@ closedir($handle);
 
 <link href="views/<?php echo $this->controller?>/<?php echo $viewModel->get('css'); ?>" rel="stylesheet"></link>
 <script type="text/javascript" src="lib/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+var host = "ws://localhost:12345/websocket/server.php";
+try{
+	socket = new WebSocket(host);
+	log('WebSocket - status '+socket.readyState);
+	socket.onopen    = function(msg){ log("Welcome - status "+this.readyState); };
+	socket.onmessage = function(msg){ log("Received: "+msg.data); };
+	socket.onclose   = function(msg){ log("Disconnected - status "+this.readyState); };
+}
+catch(ex){ log(ex); }
+
+</script>
 </head>
 
-<body><?php echo $test45; ?>
+<body>
 <div id="wrapper">
 	<div id="header">
     	<span class="opitz">Datenschutz Opitz</span><br clear="all" /><span class="system">Datenschutz mit System</span>

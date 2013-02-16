@@ -7,6 +7,9 @@ require("classes/viewmodel.php");
 require("classes/loader.php");
 
 
+
+
+
 $loader = new Loader();
 $controller = $loader->createController();
 $controller->executeAction();
