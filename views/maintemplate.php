@@ -34,7 +34,13 @@ closedir($handle);
         <div class="logo">
         	<img src="views/img/turm.png" height="130" />
         </div>
-        <div id="menu"><p><a href="./">Start</a>  |   <a href="FragenUndAntworten">Fragen & Antworten</a>  |  <a href="Fachwissen">Fachwissen</a>  |  <a href="Herausforderung">Herausforderung</a>  |   <a href="WarumExtern">Warum Extern</a>  |  <a href="Zusammenarbeit">Zusammenarbeit</a>  |  <a href="Haftung">Haftung</a></p></div>
+        <div id="menu">
+        	<ul>
+        		<li><a <?php if ($this->controller == "" || $this->controller == "Home") { echo "class='active'"; }?> href="./">Start</a>  |   </li><li><a <?php if ($this->controller == "FragenUndAntworten") { echo "class='active'"; }?> href="FragenUndAntworten">Fragen & Antworten</a>  |  </li><li><a <?php if ($this->controller == "Fachwissen") { echo "class='active'"; }?> href="Fachwissen">Fachwissen</a>  |  </li><li><a <?php if ($this->controller == "Herausforderung") { echo "class='active'"; }?> href="Herausforderung">Herausforderung</a>  |   </li><li><a <?php if ($this->controller == "WarumExtern") { echo "class='active'"; }?> href="WarumExtern">Warum Extern</a>  |  </li><li><a <?php if ($this->controller == "Zusammenarbeit") { echo "class='active'"; }?> href="Zusammenarbeit">Zusammenarbeit</a>  |  </li><li><a <?php if ($this->controller == "Haftung") { echo "class='active'"; }?> href="Haftung">Haftung</a></li>
+        	</ul>
+        </div>
+        <br clear="both" />
+        <div id="submenu">submenu</div>
     </div><!-- header ende -->
     <div class="follow" style="display:none;" >&nbsp;</div>
 
@@ -71,16 +77,17 @@ closedir($handle);
 var status = 0;
 $(document).bind('ready',function(){
 	if (status == 0) {
-		$('#header #menu p').mousemove(function(e) {
-			$('#header #menu p').unbind('mousemove');
+		$('#header #menu ul').mousemove(function(e) {
+			$('#header #menu ul').unbind('mousemove');
 			$.getScript('lib/follower.js', function() {
 				status = 1;
 				$("#header #menu").bind('mousemove', function(e) {getMouse(e)});
-				$('#header #menu p').bind('mouseenter', function(e) {following(e)});
-				$('#header #menu p').trigger('mouseenter')
-				$("#header #menu p").bind('mouseout', function (e) {
-					insideHeader = false;
-				});
+				$('#header #menu ul').bind('mouseenter', function(e) {following(e)});
+				$('#header #menu ul').trigger('mouseenter');
+				//$("#header #menu ul").bind('mouseout', function (e) {
+				//	insideHeader = false;
+				//});
+				
 
 			});
 			
