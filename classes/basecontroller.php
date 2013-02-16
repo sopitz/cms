@@ -15,11 +15,6 @@ abstract class BaseController {
     public function executeAction() {
         return $this->{$this->action}();
     }
-    
-    public function before_filter($method) {
-    	require 'AccessManager.php';
-    	AccessManager::check($method);
-    }
 }
 
 ?>

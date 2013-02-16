@@ -9,7 +9,6 @@ class HomeController extends BaseController
     }
     
     protected function help() {
-    	
     	$this->view->output($this->model->help());
     }
     

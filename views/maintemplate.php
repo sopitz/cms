@@ -12,6 +12,7 @@ closedir($handle);
 <html lang="de">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+<base href="http://localhost/cms/">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="<?php echo $viewModel->get('description'); ?>">
 <meta name="keywords" content="<?php echo $viewModel->get('keywords'); ?>">
@@ -24,18 +25,6 @@ closedir($handle);
 
 <link href="views/<?php echo $this->controller?>/<?php echo $viewModel->get('css'); ?>" rel="stylesheet"></link>
 <script type="text/javascript" src="lib/jquery-1.7.2.js"></script>
-<script type="text/javascript">
-var host = "ws://localhost:12345/websocket/server.php";
-try{
-	socket = new WebSocket(host);
-	log('WebSocket - status '+socket.readyState);
-	socket.onopen    = function(msg){ log("Welcome - status "+this.readyState); };
-	socket.onmessage = function(msg){ log("Received: "+msg.data); };
-	socket.onclose   = function(msg){ log("Disconnected - status "+this.readyState); };
-}
-catch(ex){ log(ex); }
-
-</script>
 </head>
 
 <body>
@@ -45,7 +34,7 @@ catch(ex){ log(ex); }
         <div class="logo">
         	<img src="views/img/turm.png" height="130" />
         </div>
-        <div id="menu"><p>Start  |   Fragen & Antworten  |  Fachwissen  |  Herausforderung  |   Warum Extern  |  Zusammenarbeit  |  Haftung</p></div>
+        <div id="menu"><p><a href="./">Start</a>  |   <a href="FragenUndAntworten">Fragen & Antworten</a>  |  <a href="Fachwissen">Fachwissen</a>  |  <a href="Herausforderung">Herausforderung</a>  |   <a href="WarumExtern">Warum Extern</a>  |  <a href="Zusammenarbeit">Zusammenarbeit</a>  |  <a href="Haftung">Haftung</a></p></div>
     </div><!-- header ende -->
     <div class="follow" style="display:none;" >&nbsp;</div>
 

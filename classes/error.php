@@ -13,9 +13,9 @@ class Error
         // Insert all in one table
         $error = array( 'type' => $number, 'message' => $message, 'file' => $file, 'line' => $line );
         // Display content $error variable
-//         ob_start();
+        ob_start();
         Error::writeErrors( $error );
-//         ob_end_clean();
+        ob_end_clean();
     }
     
     // EXTENSIONS
@@ -36,9 +36,11 @@ class Error
             # ob_end_clean( );
             
             // Display content $error variable
-            echo '<pre>';
-            print_r( $error );
-            echo '</pre>';
+            ob_start();
+//             echo '<pre>';
+//             print_r( $error );
+//             echo '</pre>';
+            ob_end_clean();
         } else { return true; }
     }
     

@@ -30,7 +30,7 @@ class Loader {
             require("controllers/" . $this->controllerName . ".php");
         } else {
             require("controllers/error.php");
-            return new ErrorController("badurl",$this->urlValues);
+            return new ErrorController("pageNotFound",$this->urlValues);
         }
                 
         if (class_exists($this->controllerClass)) {
@@ -42,15 +42,15 @@ class Loader {
                     return new $this->controllerClass($this->action,$this->urlValues);
                 } else {
                     require("controllers/error.php");
-                    return new ErrorController("badurl",$this->urlValues);
+                    return new ErrorController("pageNotFound",$this->urlValues);
                 }
             } else {
                 require("controllers/error.php");
-                return new ErrorController("badurl",$this->urlValues);
+                return new ErrorController("pageNotFound",$this->urlValues);
             }
         } else {
             require("controllers/error.php");
-            return new ErrorController("badurl",$this->urlValues);
+            return new ErrorController("pageNotFound",$this->urlValues);
         }
     }
 }
