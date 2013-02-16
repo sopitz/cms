@@ -38,6 +38,18 @@ closedir($handle);
     </div><!-- header ende -->
     <div class="follow" style="display:none;" >&nbsp;</div>
 
+    <?php
+    	$file = "views/".$this->controller."/structure.xml";
+		if (file_exists($file)) {
+	    	$subentries = simplexml_load_file($file);
+	    	foreach ($subentries as $entryinfo) {
+	    		echo $entryinfo->name;
+	   		}
+   		}
+    ?>
+    
+    
+    
 	<article>
         <div id="content_wrapper">
         	<?php require($this->viewFile); ?>
