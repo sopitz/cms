@@ -15,6 +15,10 @@ abstract class BaseController {
     public function executeAction() {
         return $this->{$this->action}();
     }
+    
+    function redirect($controller, $action) {
+    	header('Location: ./'.$controller.'/'.$action);
+    }
 }
 
 ?>

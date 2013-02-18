@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<users>
+	<user>
+		<name>Gernot Opitz</name>
+		<username>gopitz</username>
+		<password>test</password>
+		<email>simon@opitzfamily.de</email>
+		<pwdchanged>18.02.2013</pwdchanged>
+		<group>Administrator</group>
+	</user>
+</users>
+

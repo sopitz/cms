@@ -3,9 +3,11 @@
 <subentries>
 	<subentry>
 		<name>Help</name>
+		<template>default/default</template>
 	</subentry>
 	<subentry>
 		<name>Help2</name>
+		<template>default/default</template>
 	</subentry>
 </subentries>
 

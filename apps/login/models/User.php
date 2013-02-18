@@ -9,6 +9,14 @@ class User {
 		$this->pwd = $pwd;
 	}
 	
+	public function getName() {
+		return $this->name;
+	}
+	
+	public function getPassword() {
+		return $this->pwd ;
+	}
+	
 	public function setGroup($group) {
 		$this->group = $group;
 	}

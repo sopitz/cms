@@ -7,7 +7,10 @@ require("classes/viewmodel.php");
 require("classes/loader.php");
 
 
-
+if (isset($_COOKIE['user'])) {
+	$value = $_COOKIE['user'];
+	setcookie("user", $value, time()+3600);
+}
 
 
 $loader = new Loader();

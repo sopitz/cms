@@ -61,3 +61,359 @@
 16.02.2013 16:05:26: (2) Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.php at line 43
 16.02.2013 16:05:26: (2) simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: I/O warning : failed to load external entity &quot;views/Error/structure.xml&quot; in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.php at line 42
 16.02.2013 16:05:26: (2) Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.php at line 43
+18.02.2013 18:06:43: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:06:43: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:06:43: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:06:43: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:06:43: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:12:55: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:12:55: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:12:55: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:12:55: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:12:55: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:12:55: (4096) Object of class User could not be converted to string in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 7
+18.02.2013 18:14:41: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:14:41: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:14:41: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:14:41: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:14:41: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:15:59: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:15:59: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:15:59: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:15:59: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:15:59: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:15:59: (8) Undefined variable: users in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 7
+18.02.2013 18:15:59: (2) Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 7
+18.02.2013 18:16:12: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:16:12: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:16:12: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:16:12: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:16:12: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:16:12: (8) Undefined variable: users in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 7
+18.02.2013 18:16:12: (2) Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 7
+18.02.2013 18:16:30: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:16:30: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:16:30: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:16:30: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:16:30: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:16:42: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:16:42: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:16:42: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:16:42: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:16:42: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:18:00: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:18:00: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:18:00: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:18:00: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:18:00: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:19:02: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:19:02: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:19:02: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:19:02: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:19:02: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:19:04: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:19:04: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:19:04: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:19:04: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:19:04: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:19:56: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:19:56: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:19:56: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:19:56: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:19:56: (4096) Object of class User could not be converted to string in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:19:56: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 18:20:08: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:20:08: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:20:08: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:20:08: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:21:15: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:21:15: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:21:15: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:21:15: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:21:15: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 18:21:38: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 18:21:38: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 18:21:38: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:21:38: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 18:21:38: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 19:57:52: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 19:57:52: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 19:57:52: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 19:57:52: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 19:57:52: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 19:58:06: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 19:58:06: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 19:58:06: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 19:58:06: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 19:58:06: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 19:58:17: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 19:58:17: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 19:58:17: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 19:58:17: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 19:58:17: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 19:58:17: (8) Undefined variable: users in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 9
+18.02.2013 19:58:17: (2) Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 9
+18.02.2013 19:59:58: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 19:59:58: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 19:59:58: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 19:59:58: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 19:59:58: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 19:59:58: (8) Undefined variable: users in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 9
+18.02.2013 19:59:58: (2) Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 9
+18.02.2013 20:01:22: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:01:22: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:01:22: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:01:22: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:01:22: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:01:22: (8) Undefined variable: u in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 10
+18.02.2013 20:01:36: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:01:36: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:01:36: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:01:36: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:01:36: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:01:51: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:01:51: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:01:51: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:01:51: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:01:51: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:03:02: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:03:02: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:03:02: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:03:02: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:03:02: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:03:02: (8) Undefined variable: users in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 9
+18.02.2013 20:03:02: (2) Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 9
+18.02.2013 20:03:18: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:03:18: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:03:18: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:03:18: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:03:18: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:03:18: (8) Undefined variable: users in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 9
+18.02.2013 20:03:18: (2) Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 9
+18.02.2013 20:03:49: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:03:49: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:03:49: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:03:49: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:03:49: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:03:49: (2) simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: lib/users.xml:6: parser error : Opening and ending tag mismatch: username line 6 and name in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 9
+18.02.2013 20:03:49: (2) simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: 		&lt;username&gt;gopitz&lt;/name&gt; in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 9
+18.02.2013 20:03:49: (2) simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: 		                       ^ in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 9
+18.02.2013 20:03:49: (2) Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 10
+18.02.2013 20:06:02: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:06:02: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:06:02: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:06:02: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:06:02: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:12:14: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:12:14: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:12:14: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:12:14: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:12:14: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:12:14: (8) Undefined property: Login::$user_exists in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 23
+18.02.2013 20:13:47: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:13:47: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:13:47: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:13:47: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:13:47: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:13:47: (8) Undefined property: Login::$user_exists in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 23
+18.02.2013 20:13:59: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:13:59: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:13:59: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:13:59: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:13:59: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:13:59: (8) Undefined property: Login::$user_exists in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 23
+18.02.2013 20:14:18: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:14:18: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:14:18: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:14:18: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:14:18: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:14:18: (8) Undefined property: Login::$user_exists in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 23
+18.02.2013 20:16:01: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:16:01: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 4
+18.02.2013 20:16:01: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:16:01: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 15
+18.02.2013 20:16:01: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 16
+18.02.2013 20:16:01: (8) Undefined property: Login::$user_exists in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 24
+18.02.2013 20:16:53: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:17:27: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 20:25:15: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 21:18:05: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 21:18:05: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:18:42: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 21:18:42: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:18:42: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:19:26: (8) Use of undefined constant doLogin - assumed 'doLogin' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 21:19:26: (2) Missing argument 1 for Login::doLogin() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 8
+18.02.2013 21:19:26: (8) Undefined variable: args in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 12
+18.02.2013 21:19:26: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 13
+18.02.2013 21:19:26: (8) Trying to get property of non-object in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 13
+18.02.2013 21:19:26: (2048) Non-static method DoLogin::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 14
+18.02.2013 21:19:26: (8) Undefined property: Login::$user_exists in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogin.php at line 30
+18.02.2013 21:19:49: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+18.02.2013 21:20:01: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:20:01: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:20:01: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:20:01: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:20:01: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:20:38: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:20:38: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:20:38: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:20:38: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:20:38: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:21:07: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:21:07: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:21:07: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:21:07: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:21:07: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:23:48: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:23:48: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:23:48: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:23:48: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:23:48: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:24:45: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:24:45: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:24:45: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:24:45: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:24:45: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:24:45: (8) Use of undefined constant self - assumed 'self' in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:26:40: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:26:40: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:26:40: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:26:40: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:26:40: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:26:40: (8) Use of undefined constant self - assumed 'self' in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:26:42: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:26:42: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:26:42: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:26:42: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:26:42: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:26:42: (8) Use of undefined constant self - assumed 'self' in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:26:52: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:26:52: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:26:52: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:26:52: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:26:52: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:26:52: (8) Use of undefined constant self - assumed 'self' in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:27:01: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:27:01: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:27:01: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:27:01: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:27:01: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:27:18: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:27:18: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:27:18: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:27:18: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 8
+18.02.2013 21:27:18: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 8
+18.02.2013 21:27:31: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:27:31: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:27:31: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:27:31: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:27:31: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:27:34: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:27:34: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:27:34: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:27:34: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:27:34: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:27:38: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:27:38: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:27:38: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:27:38: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:27:38: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:27:39: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:27:39: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:27:39: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:27:39: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:27:39: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:27:48: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:27:48: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:27:48: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:27:48: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:27:48: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:27:48: (2048) Non-static method DoLogout::redirect() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 10
+18.02.2013 21:27:48: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 5
+18.02.2013 21:28:00: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:28:00: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:28:00: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:28:00: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 10
+18.02.2013 21:28:00: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 10
+18.02.2013 21:28:00: (2048) Non-static method DoLogout::redirect() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 11
+18.02.2013 21:28:00: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:28:09: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:28:09: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:28:09: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:28:09: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 10
+18.02.2013 21:28:09: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 10
+18.02.2013 21:28:09: (2048) Non-static method DoLogout::redirect() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 11
+18.02.2013 21:28:09: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:28:26: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:28:26: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:28:26: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:28:26: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 10
+18.02.2013 21:28:26: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 10
+18.02.2013 21:28:26: (2048) Non-static method DoLogout::redirect() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 11
+18.02.2013 21:28:26: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:28:46: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:28:46: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:28:46: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:28:46: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 10
+18.02.2013 21:28:46: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 10
+18.02.2013 21:28:46: (2048) Non-static method DoLogout::redirect() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 11
+18.02.2013 21:28:46: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 6
+18.02.2013 21:28:56: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:28:56: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:28:56: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:28:56: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:28:56: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 9
+18.02.2013 21:28:56: (2048) Non-static method DoLogout::redirect() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 10
+18.02.2013 21:28:56: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 5
+18.02.2013 21:29:28: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:29:28: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:29:28: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:29:28: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:29:28: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:29:28: (2048) Non-static method BaseController::redirect() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 8
+18.02.2013 21:29:28: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/basecontroller.php at line 20
+18.02.2013 21:29:35: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:29:35: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:29:35: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:29:35: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:29:35: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:29:46: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:29:46: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:29:46: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:29:46: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:29:46: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:30:07: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:30:07: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:30:07: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:30:07: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:30:07: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:30:07: (2048) Non-static method BaseController::redirect() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 8
+18.02.2013 21:30:07: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/basecontroller.php at line 20
+18.02.2013 21:30:13: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:30:13: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:30:13: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:30:13: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:30:13: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:30:13: (2048) Non-static method BaseController::redirect() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 8
+18.02.2013 21:30:13: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/basecontroller.php at line 20
+18.02.2013 21:31:12: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:31:12: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:31:12: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:31:12: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:31:12: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:31:12: (2048) Non-static method BaseController::redirect() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 8
+18.02.2013 21:31:12: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/basecontroller.php at line 20
+18.02.2013 21:31:15: (8) Use of undefined constant doLogout - assumed 'doLogout' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Logout/index.php at line 3
+18.02.2013 21:31:15: (2) Missing argument 1 for Login::doLogout() in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 17
+18.02.2013 21:31:15: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/login.php at line 21
+18.02.2013 21:31:15: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:31:15: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:31:15: (2048) Non-static method BaseController::redirect() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 8
+18.02.2013 21:31:15: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/apps/mercury/mercury.php:20) in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/basecontroller.php at line 20
+18.02.2013 21:32:15: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/controllers/logout.php at line 13
+18.02.2013 21:32:15: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:32:57: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/controllers/logout.php at line 13
+18.02.2013 21:32:57: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
+18.02.2013 21:33:14: (2048) Non-static method DoLogout::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/controllers/logout.php at line 13
+18.02.2013 21:33:14: (8) Undefined variable: value in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/login/controllers/doLogout.php at line 7
