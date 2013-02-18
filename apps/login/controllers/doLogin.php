@@ -1,5 +1,5 @@
 <?php
-class DoLogin extends BaseController {
+class DoLogin {
 	
 	private $user_exists = 0;
 	private $password_correct = -1;

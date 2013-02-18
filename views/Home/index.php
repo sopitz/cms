@@ -1,17 +1,17 @@
 <?php
-// 	$login = new Login();
-// 	$login->__call(getView, array("form"));
-// 	$login->__call(doLogin, array("user"));
-	
-// 	$mercury = new Mercury();
-// 	$mercury->__call("activate", array(".editable"));
+ 	$login = new Login();
+if ($login->is_logged_in()) {
+	$mercury = new Mercury();
+	$mercury->__call("activate", array(".editable"));
+}
+ 	
+
 ?>
 
-<!-- <div class="editable">im an editable div</div> -->
 <content>
 	<h1 class="editable">Gut beraten - Vertrauen gewinnen</h1><br clear="all" />
-    <p class="subheader">Unter Vertrauen wird die Annahme verstanden, dass eine bestimmte Entwicklung einen positiven oder erwarteten Verlauf nimmt.<br />Dies möchte ich mit meiner Beratung bei Ihnen erreichen.</p>
-    <img class="picture" src="views/Home/img/temp.jpg" width="310" /><br clear="all" />
-    <p class="text">Fr den Bereich des Datenschutzes ist ein besonderes Vertrauensverhältnis notwendig. Deshalb möchte ich mich und meine Sichtweise zu Fragen des Datenschutzes auf den folgenden Seiten vorstellen. Ich bin Ihr kompetenter Partner in allen Fragen des betrieblichen Datenschutzes. In Dresden zu Hause – bin ich für Sie dort tätig, wo Sie meine Unterstützung und Dienstleistung in Anspruch nehmen wollen.<br />Meine besonderen Stärken liegen in der Fachberatung als externer betrieblicher Datenschutzbeauftragter. Kleine und mittelständische Unternehmen sowie Vereine gehören zu meinen Mandanten.</p>
-    <p class="dosomething">Nehmen Sie doch Kontakt mit mir auf!</p>
+    <p class="subheader editable">Unter Vertrauen wird die Annahme verstanden, dass eine bestimmte Entwicklung einen positiven oder erwarteten Verlauf nimmt.<br />Dies möchte ich mit meiner Beratung bei Ihnen erreichen.</p>
+    <img class="picture editable" src="views/Home/img/temp.jpg" width="310" /><br clear="all" />
+    <p class="text editable" >Fr den Bereich des Datenschutzes ist ein besonderes Vertrauensverhältnis notwendig. Deshalb möchte ich mich und meine Sichtweise zu Fragen des Datenschutzes auf den folgenden Seiten vorstellen. Ich bin Ihr kompetenter Partner in allen Fragen des betrieblichen Datenschutzes. In Dresden zu Hause – bin ich für Sie dort tätig, wo Sie meine Unterstützung und Dienstleistung in Anspruch nehmen wollen.<br />Meine besonderen Stärken liegen in der Fachberatung als externer betrieblicher Datenschutzbeauftragter. Kleine und mittelständische Unternehmen sowie Vereine gehören zu meinen Mandanten.</p>
+    <p class="dosomething editable">Nehmen Sie doch Kontakt mit mir auf!</p>
 </content>
