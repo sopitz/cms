@@ -6,6 +6,7 @@ class Login {
 	}
 	
 	private function doLogin($args) {
+		$args = $args['post']['args'];
 		require_once("controllers/doLogin.php");
 		require("models/User.php");
 		
@@ -17,7 +18,6 @@ class Login {
 	private function doLogout($args) {
 		require_once("controllers/doLogout.php");
 		require("models/User.php");
-	
 		DoLogout::_do();
 	}
 	
@@ -28,7 +28,8 @@ class Login {
 	public function is_logged_in() {
 		if (isset($_COOKIE['user'])){
 			$user_array = array();
-			$user_array = unserialize($_COOKIE['user']);
+			$serialized_string = $_COOKIE['user'];
+			$user_array = unserialize($serialized_string);
 			$file = "lib/users.xml";
 			if (file_exists($file)) {
 				$users = simplexml_load_file($file);

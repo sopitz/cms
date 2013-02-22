@@ -341,7 +341,6 @@ window.Mercury = {
 	  
 	  
 	  save: function() {
-		  
 		   var value = $('#mercury_iframe').contents().find('#content').html()
 		   //var pagenum = location.pathname.match(/\/\/(.*)/);
 		   var url = location.pathname.split("/");
@@ -356,12 +355,12 @@ window.Mercury = {
 				  subm: url[2],
 				  value: value
 			  },
-			  success: function() { Mercury.trigger('toggle:interface');
-			  
-			$('.standart #content').attr('contenteditable', 'true');
-			$('.standart #content').focus();
-			
-			$('.standart #content').off('click');}
+			  success: function() { 
+				  Mercury.trigger('toggle:interface');
+				  $('.standart #content').attr('contenteditable', 'true');
+				  $('.standart #content').focus();
+				  $('.standart #content').off('click');
+			  }
 		  })
 	  }
       		

@@ -14,11 +14,11 @@ class DoLogin {
 			$users = simplexml_load_file($file);
  			foreach ($users as $userdata) {
 				if ($userdata->name == $username) {
-					$user_array['name'] = $userdata->name;
-					$user_array['email'] = $userdata->email;
-					$user_array['username'] = $userdata->username;
-					$user_array['group'] = $userdata->group;
-					$user_array['pwdchanged'] = $userdata->pwdchanged;
+					$user_array['name'] = "".$userdata->name;
+					$user_array['email'] = "".$userdata->email;
+					$user_array['username'] = "".$userdata->username;
+					$user_array['group'] = "".$userdata->group;
+					$user_array['pwdchanged'] = "".$userdata->pwdchanged;
 					$this->user_exists = 1;
 					if ($userdata->password == $pwd) {
 						$this->password_correct = 1;

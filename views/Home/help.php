@@ -1,3 +1,1 @@
-<?php
-echo "help-site";
-?>
+help site
