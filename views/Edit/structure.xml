@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<subentries>
+<subentries type="documentary">
 	<subentry>
-		<name>save</name>
+		<name>Save</name>
 		<template>default/default</template>
 	</subentry>
 </subentries>
-

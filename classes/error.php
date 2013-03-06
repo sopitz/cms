@@ -4,10 +4,8 @@ class Error
 {
 	private static  $path = "log/";
 	private static  $filename = "logfile.log";
-	
-	
-	
-    // CATCHABLE ERRORS
+
+	// CATCHABLE ERRORS
     public static function captureNormal( $number, $message, $file, $line )
     {
         // Insert all in one table
