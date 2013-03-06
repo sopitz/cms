@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<subentries>
+<subentries type="documentary">
 	<subentry>
 		<name>Help</name>
 		<template>default/default</template>
 	</subentry>
-	<subentry>
-		<name>Help2</name>
-		<template>default/default</template>
-	</subentry>
-</subentries>
-
+<subentry><name>help4</name><template>default/default</template></subentry></subentries>

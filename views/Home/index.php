@@ -27,7 +27,11 @@ if ($login->is_logged_in()) {
  			$('.'+str).attr('data-mercury', 'full'); 
  			$('.'+str).focus(); 
  			$('.'+str).off('click');
- 			Mercury.trigger('toggle:interface'); 
+ 		
+			console.log($('window').children().children());
+ 			//if(window.document.getElementsByClassName('mercury-toolbar-container').item(0).style.item(1) == "none") {
+ 			//	Mercury.trigger('toggle:interface'); 
+ 			//}
  		}); 
  	}); 
  </script> 

@@ -6,7 +6,7 @@ class HomeModel extends BaseModel {
     }
     
     public function help() {
-    	$this->viewModel->set("pageTitle","Hilfe", "description", "Meine Beschreibung", "keywords", "Simon, CMS, gudd", "author", "Simon Optz", "css", "");
+    	$this->viewModel->set("pageTitle","Hilfe", "description", "Das ist die Hilfeseite", "keywords", "", "author", "Simon Optz", "css", "");
     	return $this->viewModel;
     }
 }
