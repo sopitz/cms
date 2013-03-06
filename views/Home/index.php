@@ -4,7 +4,14 @@ if ($login->is_logged_in()) {
 	$mercury = new Mercury();
 	$mercury->__call("activate", array(".contenteditable"));
 }
- 	
+
+
+
+
+
+
+
+
 
 ?>
 
