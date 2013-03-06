@@ -54,7 +54,7 @@ class DoCreateNewSubmenu {
 		$file = "../cms/views/$this->view/structure.xml";
 		if (file_exists($file)) {
 			$subentries = simplexml_load_file($file);
-			$subentries->addAttribute('type', 'documentary');
+			//$subentries->addAttribute('type', 'documentary');
 			$element = $subentries->addChild('subentry');
 			$element->addChild('name', $this->viewname);
 			$element->addChild('template', "default/default");
