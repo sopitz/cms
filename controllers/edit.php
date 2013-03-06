@@ -11,8 +11,8 @@ class EditController extends BaseController
 		$this->view->output($this->model->index());
 	}
 	
-	protected function save() {
-		$this->view->output($this->model->save());
+	protected function addsubpage() {
+		$this->view->output($this->model->addsubpage());
 	}
 
 }

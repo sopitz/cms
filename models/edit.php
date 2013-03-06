@@ -5,8 +5,8 @@ class EditModel extends BaseModel {
         return $this->viewModel;
     }
     
-    public function save() {
-    	$this->viewModel->set("pageTitle","save", "description", "Meine Beschreibung", "keywords", "Simon, CMS, gudd", "author", "Simon Optz", "css", "css/edit.css");
+    public function addsubpage() {
+    	$this->viewModel->set("pageTitle","addsubpage", "description", "Meine Beschreibung", "keywords", "Simon, CMS, gudd", "author", "Simon Optz", "css", "css/edit.css");
     	return $this->viewModel;
     }
 }
