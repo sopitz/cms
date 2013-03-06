@@ -7,7 +7,8 @@ class Generator {
 	
 	private function doCreateNewSubmenu($args) {
 		require_once("controllers/doCreateNewSubmenu.php");
-		DoCreateNewSubmenu::_do($args[0], $args[1]);
+		$create = new DoCreateNewSubmenu();
+		$create->_do($args[0], $args[1]);
 	}
 }
 

@@ -885,3 +885,10 @@
 06.03.2013 20:42:57: (2) call_user_func_array() expects parameter 2 to be array, string given in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/generator.php at line 8
 06.03.2013 20:43:21: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 9
 06.03.2013 20:43:29: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 9
+06.03.2013 20:46:35: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 9
+06.03.2013 20:46:35: (2048) Non-static method DoCreateNewSubmenu::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/generator.php at line 10
+06.03.2013 20:46:36: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 9
+06.03.2013 20:46:36: (2048) Non-static method DoCreateNewSubmenu::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/generator.php at line 10
+06.03.2013 20:46:41: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 9
+06.03.2013 20:46:41: (2048) Non-static method DoCreateNewSubmenu::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/generator.php at line 10
+06.03.2013 20:53:03: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6

@@ -5,6 +5,7 @@ class DoCreateNewSubmenu {
 	private $viewname;
 	
 	public function _do($view, $viewname) {
+		echo "doing my stuff";
 		$this->view = $view;
 		$this->viewname = $viewname;
 		
