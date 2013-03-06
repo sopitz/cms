@@ -892,3 +892,30 @@
 06.03.2013 20:46:41: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 9
 06.03.2013 20:46:41: (2048) Non-static method DoCreateNewSubmenu::_do() should not be called statically, assuming $this from incompatible context in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/generator.php at line 10
 06.03.2013 20:53:03: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 20:56:23: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 20:56:23: (2) file_get_contents(../cms/controllers/e.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/controllers/doCreateNewSubmenu.php at line 66
+06.03.2013 20:56:23: (2) file_get_contents(../cms/models/e.php) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/controllers/doCreateNewSubmenu.php at line 66
+06.03.2013 20:56:23: (2) file_put_contents(../cms/views/E/d.php) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/controllers/doCreateNewSubmenu.php at line 50
+06.03.2013 20:57:21: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 20:57:43: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 20:57:55: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 20:58:24: (8) Use of undefined constant DoCreateNewSubmenu - assumed 'DoCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 20:58:58: (8) Use of undefined constant doCreateNewSubmenu - assumed 'doCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 20:59:34: (8) Use of undefined constant doCreateNewSubmenu - assumed 'doCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 20:59:42: (8) Use of undefined constant doCreateNewSubmenu - assumed 'doCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 20:59:45: (8) Use of undefined constant doCreateNewSubmenu - assumed 'doCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 21:00:18: (8) Use of undefined constant doCreateNewSubmenu - assumed 'doCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 21:00:47: (8) Use of undefined constant doCreateNewSubmenu - assumed 'doCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 21:03:06: (8) Use of undefined constant doCreateNewSubmenu - assumed 'doCreateNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 21:03:30: (8) Use of undefined constant createNewSubmenu - assumed 'createNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 21:04:58: (8) Use of undefined constant createNewSubmenu - assumed 'createNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 21:05:13: (8) Use of undefined constant createNewSubmenu - assumed 'createNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 21:05:33: (8) Use of undefined constant createNewSubmenu - assumed 'createNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 21:06:18: (8) Use of undefined constant createNewSubmenu - assumed 'createNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 21:07:45: (8) Use of undefined constant createNewSubmenu - assumed 'createNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 21:07:45: (8) Undefined variable: args in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/generator.php at line 12
+06.03.2013 21:07:45: (2) call_user_func_array() expects parameter 2 to be array, null given in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/generator.php at line 12
+06.03.2013 21:08:07: (8) Use of undefined constant createNewSubmenu - assumed 'createNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+06.03.2013 21:08:07: (8) Undefined variable: args in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/generator.php at line 12
+06.03.2013 21:08:07: (2) call_user_func_array() expects parameter 2 to be array, null given in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/generator.php at line 12
+06.03.2013 21:08:48: (8) Use of undefined constant createNewSubmenu - assumed 'createNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6

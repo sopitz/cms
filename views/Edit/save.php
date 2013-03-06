@@ -1,8 +1,8 @@
 
-savesite
+asdf<br />
 
 <?php
 $generator = new Generator();
-$generator->__call(DoCreateNewSubmenu, array("Edit", "newEdittest"));
+$generator->__call(createNewSubmenu, array('Edit', 'newEdittest'));
 
 ?>
