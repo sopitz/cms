@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <subentries type="documentary">
 	<subentry>
-		<name>Help</name>
+		<name>Hilfe</name>
 		<template>default/default</template>
 	</subentry>
 </subentries>

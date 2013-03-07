@@ -48,21 +48,19 @@ closedir($handle);
 	    	$subentries = simplexml_load_file($file);
 	    	foreach ($subentries as $entryinfo) {
 				array_push($submenus, "".$entryinfo->name);
-// 	    		echo $entryinfo->name." . ";
 	   		}
-	   		
 	   		$i = 0;
 	   		$len = count($array);
 	   		foreach ($submenus as $submenu) {
 	   			if ($i == 0) {
-	   				echo "<li class='submenuitem'>$submenu</li>";
+
+					if ($viewModel->get('viewname') == $submenu) { echo "<li class='submenuitem active'>$submenu</li>"; } else { echo "<li class='submenuitem'>$submenu</li>"; }
+	   				
 	   			} else if ($i == $len - 1) {
-	   				echo "<li class='submenuitem'>> $submenu</li>";
+	   				if ($viewModel->get('viewname') == $submenu) { echo "<li class='submenuitem active'>> _$submenu</li>"; } else { echo "<li class='submenuitem'>> $submenu</li>"; }
 	   			}
-	   			// É
 	   			$i++;
 	   		}
-	   		echo "<li class='submenuitem'><span class='separator'>></span>    test</li>";
    		}
     ?>
     </ul></div>

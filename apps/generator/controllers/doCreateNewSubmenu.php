@@ -33,7 +33,7 @@ class DoCreateNewSubmenu {
 		$model = $this->prepare("../cms/models/".strtolower($this->view).".php");
 		echo $model;
 		echo "public function $this->viewname() {\n";
-		echo "\$this->viewModel->set(\"pageTitle\",\"$this->viewname\", \"description\", \"\", \"keywords\", \"\", \"author\", \"\", \"css\", \"\");\n";
+		echo "\$this->viewModel->set(\"pagename\", \"$this->viewname\", \"pageTitle\",\"$this->viewname\", \"description\", \"\", \"keywords\", \"\", \"author\", \"\", \"css\", \"\");\n";
 		echo "return \$this->viewModel;\n";
 		echo "}\n";
 		echo "}\n";

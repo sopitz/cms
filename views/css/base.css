@@ -214,6 +214,10 @@ li.submenuitem {
 	display:inline;
 	z-index: 1;
 	margin-right: 20px;
+	color: white;
+}
+li.active {
+	color: rgb(140,140,160);
 }
 li.submenuitem span.separator {
 	padding-right:10px;
