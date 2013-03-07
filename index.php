@@ -3,7 +3,7 @@
 /********************************************************************/
 /*																	*/
 /*       Project: CMS REVOLUTION                                    */
-/*       Authors: opitzfamilys                                      */
+/*       Authors: sopitz                                            */
 /*          File: index.php											*/
 /*   Last change: 20130307                                          */
 /*																	*/
