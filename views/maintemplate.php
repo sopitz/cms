@@ -106,4 +106,4 @@ $(document).bind('ready',function(){
 		});
 	}
 });
-<!-- </script> -->
+</script>

@@ -1008,3 +1008,9 @@
 07.03.2013 20:31:46: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/edit/index.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 59
 07.03.2013 20:31:46: (8) Undefined variable: array in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.php at line 55
 07.03.2013 20:31:46: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+07.03.2013 20:34:16: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/edit/index.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 20:34:16: (8) Undefined variable: array in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.php at line 55
+07.03.2013 20:34:16: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+07.03.2013 20:35:07: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/edit/index.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 20:35:07: (8) Undefined variable: array in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.php at line 55
+07.03.2013 20:35:07: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
