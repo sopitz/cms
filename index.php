@@ -1,15 +1,4 @@
 <?php
-
-/********************************************************************/
-/*																	*/
-/*       Project: CMS REVOLUTION                                    */
-/*       Authors: opitzfamilys                                      */
-/*          File: index.php											*/
-/*   Last change: 20130307                                          */
-/*																	*/
-/********************************************************************/
-
-
 if (isset($_COOKIE['user'])) {
 	$value = $_COOKIE['user'];
 	setcookie("user", $value, time()+3600);
