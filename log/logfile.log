@@ -919,3 +919,6 @@
 06.03.2013 21:08:07: (8) Undefined variable: args in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/generator.php at line 12
 06.03.2013 21:08:07: (2) call_user_func_array() expects parameter 2 to be array, null given in /Applications/XAMPP/xamppfiles/htdocs/cms/apps/generator/generator.php at line 12
 06.03.2013 21:08:48: (8) Use of undefined constant createNewSubmenu - assumed 'createNewSubmenu' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/save.php at line 6
+07.03.2013 09:09:57: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 58
+07.03.2013 09:21:03: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 58
+07.03.2013 09:21:03: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3

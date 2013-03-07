@@ -13,6 +13,7 @@ require("classes/loader.php");
 
 
 
+if( !function_exists('apache_request_headers') ) {
 
 	function apache_request_headers() {
 		$arh = array();
@@ -33,6 +34,7 @@ require("classes/loader.php");
 		}
 		return( $arh );
 	}
+}
 
 
 
