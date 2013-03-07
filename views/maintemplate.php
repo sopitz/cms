@@ -30,7 +30,7 @@ closedir($handle);
 <body>
 <div id="wrapper">
 	<div id="header">
-    	<span class="opitz">Datenschutz Opitz</span><br clear="all" /><span class="system">Datenschutzzz mit System</span>
+    	<span class="opitz">Datenschutz Opitz</span><br clear="all" /><span class="system">Datenschutz mit System</span>
         <div class="logo">
         	<img src="views/img/turm.png" height="130" />
         </div>

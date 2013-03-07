@@ -1337,3 +1337,6 @@
 07.03.2013 21:18:01: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/index.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
 07.03.2013 21:18:01: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
 07.03.2013 21:18:01: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Error.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:29:13: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/herausforderung/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:29:13: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/herausforderung/index.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:29:13: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
