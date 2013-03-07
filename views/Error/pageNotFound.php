@@ -1,2 +1,2 @@
 <h1>Fehler</h1><br /><br /><br />
-<p>Die Seite gibt es nicht.</p>
+<p>Tut uns leid, die Seite gibt es leider nicht.</p>

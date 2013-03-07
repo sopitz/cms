@@ -209,6 +209,10 @@ ul.submenu {
 	border-bottom: 1px solid rgb(162,2,2);
 }
 
+ul.submenu a {
+	text-decoration:none;
+}
+
 li.submenuitem {
 	list-style:none;
 	display:inline;

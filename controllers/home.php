@@ -8,8 +8,8 @@ class HomeController extends BaseController
         $this->model = new HomeModel();
     }
     
-    protected function help() {
-    	$this->view->output($this->model->help());
+    protected function hilfe() {
+    	$this->view->output($this->model->hilfe());
     }
     
     protected function index() {

@@ -30,7 +30,7 @@ closedir($handle);
 <body>
 <div id="wrapper">
 	<div id="header">
-    	<span class="opitz">Datenschutz Opitz</span><br clear="all" /><span class="system">Datenschutz mit System</span>
+    	<span class="opitz">Datenschutz Opitz</span><br clear="all" /><span class="system">Datenschutzzz mit System</span>
         <div class="logo">
         	<img src="views/img/turm.png" height="130" />
         </div>
@@ -40,7 +40,11 @@ closedir($handle);
         	</ul>
         </div>
         <br clear="both" />
-        <div id="submenu"><ul class="submenu">
+        
+    </div><!-- header ende -->
+    <div class="follow" style="display:none;" >&nbsp;</div>
+	<article>
+	<div id="submenu"><ul class="submenu">
         <?php
         $submenus = array();
     	$file = "views/".$this->controller."/structure.xml";
@@ -50,23 +54,20 @@ closedir($handle);
 				array_push($submenus, "".$entryinfo->name);
 	   		}
 	   		$i = 0;
-	   		$len = count($array);
+	   		$len = count($submenus);
+	   		$viewname = $viewModel->get('viewname');
 	   		foreach ($submenus as $submenu) {
 	   			if ($i == 0) {
-
-					if ($viewModel->get('viewname') == $submenu) { echo "<li class='submenuitem active'>$submenu</li>"; } else { echo "<li class='submenuitem'>$submenu</li>"; }
+					if ($viewModel->get('viewname') == $submenu) { echo "<li class='submenuitem active'><a href=\"$this->controller/$submenu\">$submenu</a></li>"; } else { echo "<li class='submenuitem'><a href=\"$this->controller/$submenu\">$submenu</a></li>"; }
 	   				
 	   			} else if ($i == $len - 1) {
-	   				if ($viewModel->get('viewname') == $submenu) { echo "<li class='submenuitem active'>> _$submenu</li>"; } else { echo "<li class='submenuitem'>> $submenu</li>"; }
+	   				if ($viewModel->get('viewname') == $submenu) { echo "<a href=\"$this->controller/$submenu\"><li class='submenuitem active'>> $submenu</li></a>"; } else { echo "<a href=\"$this->controller/$submenu\"><li class='submenuitem'>> $submenu</li></a>"; }
 	   			}
 	   			$i++;
 	   		}
    		}
     ?>
     </ul></div>
-    </div><!-- header ende -->
-    <div class="follow" style="display:none;" >&nbsp;</div>
-	<article>
         <div id="content_wrapper">
         	<?php require($this->viewFile); ?>
         </div><!-- content_wrapper ende -->

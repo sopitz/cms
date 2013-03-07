@@ -1281,3 +1281,59 @@
 07.03.2013 21:02:00: (8) Undefined variable: array in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.php at line 54
 07.03.2013 21:02:00: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
 07.03.2013 21:02:00: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Home.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:04:18: (8) Undefined variable: array in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.php at line 53
+07.03.2013 21:04:18: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:04:18: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Home.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:04:32: (8) Undefined variable: array in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.php at line 53
+07.03.2013 21:04:32: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:04:32: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Home.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:04:34: (8) Undefined variable: array in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.php at line 53
+07.03.2013 21:05:06: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fragenundantworten/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:05:06: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fragenundantworten/index.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:05:06: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+07.03.2013 21:08:33: (8) Undefined property: ViewModel::$get in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.php at line 57
+07.03.2013 21:12:43: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+07.03.2013 21:13:05: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+07.03.2013 21:13:13: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/Startseite.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:13:13: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+07.03.2013 21:14:50: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/Hilfe.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:14:50: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+07.03.2013 21:15:14: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/Hilfe.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:15:15: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/Hilfe.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:16:11: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:16:11: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Home.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:16:36: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:16:36: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Home.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:11: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:11: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Home.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:19: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:19: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/index.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:19: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+07.03.2013 21:17:31: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:31: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/index.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:31: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:31: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Error.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:32: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:32: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/index.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:32: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:32: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Error.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:57: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:57: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/index.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:57: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:57: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Error.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:58: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:58: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/index.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:58: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:58: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Error.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:59: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:59: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/index.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:17:59: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:17:59: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Error.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:18:00: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:18:00: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/index.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:18:00: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:18:00: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Error.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:18:01: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:18:01: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/index.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+07.03.2013 21:18:01: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+07.03.2013 21:18:01: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Error.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
