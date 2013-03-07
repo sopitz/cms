@@ -922,3 +922,4 @@
 07.03.2013 09:09:57: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 58
 07.03.2013 09:21:03: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 58
 07.03.2013 09:21:03: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
+07.03.2013 19:58:03: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.php at line 3
