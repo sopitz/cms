@@ -12,7 +12,7 @@ closedir($handle);
 <html lang="de">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<base href="http://datenschutz.cmsrevolution.de">
+<base href="http://localhost/cms/">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="<?php echo $viewModel->get('description'); ?>">
 <meta name="keywords" content="<?php echo $viewModel->get('keywords'); ?>">
