@@ -64,6 +64,7 @@ if ($urlValues['action'] == "") {
 }
 $file = "./views/".$controllerName."/structure.xml";
 $file2 = "./views/".$controllerName."/".$action.".xml";
+
 $headers = apache_request_headers();
 list(,,,,,,,,,$lastModified) = stat($file);
 list(,,,,,,,,,$lastModified2) = stat($file2);

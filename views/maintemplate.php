@@ -40,15 +40,32 @@ closedir($handle);
         	</ul>
         </div>
         <br clear="both" />
-        <div id="submenu"><?php
+        <div id="submenu"><ul class="submenu">
+        <?php
+        $submenus = array();
     	$file = "views/".$this->controller."/structure.xml";
 		if (file_exists($file)) {
 	    	$subentries = simplexml_load_file($file);
 	    	foreach ($subentries as $entryinfo) {
-	    		echo $entryinfo->name." . ";
+				array_push($submenus, "".$entryinfo->name);
+// 	    		echo $entryinfo->name." . ";
 	   		}
+	   		
+	   		$i = 0;
+	   		$len = count($array);
+	   		foreach ($submenus as $submenu) {
+	   			if ($i == 0) {
+	   				echo "<li class='submenuitem'>$submenu</li>";
+	   			} else if ($i == $len - 1) {
+	   				echo "<li class='submenuitem'>> $submenu</li>";
+	   			}
+	   			// É
+	   			$i++;
+	   		}
+	   		echo "<li class='submenuitem'><span class='separator'>></span>    test</li>";
    		}
-    ?></div>
+    ?>
+    </ul></div>
     </div><!-- header ende -->
     <div class="follow" style="display:none;" >&nbsp;</div>
 	<article>
@@ -89,4 +106,4 @@ $(document).bind('ready',function(){
 		});
 	}
 });
-</script>
+<!-- </script> -->

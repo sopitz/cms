@@ -1,9 +1,20 @@
 @CHARSET "UTF-8";
 /* CSS Document */
 
+
+@font-face {
+	font-family: 'goodtime';
+	src: url('goodtime.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'myriadpro';
+	src: url('MyriadPro-Bold.otf') format('opentype');
+}
+
 body {
 	width:99%;
-	font-family:"Myriad Pro";
+	font-family:"myriadpro";
 	overflow-y:scroll;
 	
 	background-image: -moz-linear-gradient(top, rgb(191,191,191) 7%, rgb(255,255,255) 54%);
@@ -11,11 +22,6 @@ body {
 	background-image: -webkit-linear-gradient(top, rgb(191,191,191) 7%, rgb(255,255,255) 54%);
 	background-image: linear-gradient(top, rgb(191,191,191) 7%, rgb(255,255,255) 54%);
 	background-position: 0px 160px;
-}
-
-@font-face {
-	font-family: 'goodtime';
-	src: url('goodtime.ttf') format('truetype');
 }
 
 h1 {
@@ -196,4 +202,19 @@ a.active {
 	width:14px;
 	height:8px;
 	margin-top:-7px;
+}
+
+ul.submenu {
+	font-family:"myriadpro";
+	border-bottom: 1px solid rgb(162,2,2);
+}
+
+li.submenuitem {
+	list-style:none;
+	display:inline;
+	z-index: 1;
+	margin-right: 20px;
+}
+li.submenuitem span.separator {
+	padding-right:10px;
 }
