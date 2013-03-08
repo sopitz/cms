@@ -24,7 +24,7 @@ closedir($handle);
 <link href="views/css/base.css" rel="stylesheet" type="text/css"></link>
 
 <link href="views/<?php echo $this->controller?>/<?php echo $viewModel->get('css'); ?>" rel="stylesheet"></link>
-<script type="text/javascript" src="lib/jquery-1.7.2.js"></script>
+<!--<script type="text/javascript" src="lib/jquery-1.7.2.js"></script> -->
 </head>
 
 <body>
