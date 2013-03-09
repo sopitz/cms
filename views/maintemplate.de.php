@@ -36,7 +36,30 @@ closedir($handle);
         </div>
         <div id="menu">
         	<ul>
-        		<li><a <?php if ($this->controller == "" || $this->controller == "Home") { echo "class='active'"; }?> href="./">Start</a>  |   </li><li><a <?php if ($this->controller == "FragenUndAntworten") { echo "class='active'"; }?> href="FragenUndAntworten">Fragen & Antworten</a>  |  </li><li><a <?php if ($this->controller == "Fachwissen") { echo "class='active'"; }?> href="Fachwissen">Fachwissen</a>  |  </li><li><a <?php if ($this->controller == "Herausforderung") { echo "class='active'"; }?> href="Herausforderung">Herausforderung</a>  |   </li><li><a <?php if ($this->controller == "WarumExtern") { echo "class='active'"; }?> href="WarumExtern">Warum Extern</a>  |  </li><li><a <?php if ($this->controller == "Zusammenarbeit") { echo "class='active'"; }?> href="Zusammenarbeit">Zusammenarbeit</a>  |  </li><li><a <?php if ($this->controller == "Haftung") { echo "class='active'"; }?> href="Haftung">Haftung</a></li>
+        	<?php
+		        $names = array();
+		        $links = array();
+		        $mainmenus = array();
+		    	$file = "views/structure.".$_COOKIE['language'].".xml";
+				if (file_exists($file)) {
+			    	$mainentries = simplexml_load_file($file);
+			    	foreach ($mainentries as $entryinfo) {
+						$mainmenus["".$entryinfo->name] = "".$entryinfo->link;
+			   		}
+			   		
+			   		$i = 0;
+			   		$len = count($mainmenus);
+			   		$viewname = $viewModel->get('viewname');
+			   		foreach ($mainmenus as $name => $link) {
+						if ($i == $len - 1) {
+							if (strtolower($this->controller) == strtolower($link)) { echo "<li class='active'><a href=\"$link\">$name</a></li>"; } else { echo "<li><a href=\"$link\">$name</a></li>"; }
+						} else {
+							if (strtolower($this->controller) == strtolower($link)) { echo "<li class='active'><a href=\"$link\">$name&nbsp;&nbsp;|&nbsp;&nbsp;</a></li>"; } else { echo "<li><a href=\"$link\">$name&nbsp;&nbsp;|&nbsp;&nbsp;</a></li>"; }
+			   			}
+			   			$i++;
+			   		}
+		   		}
+		    ?>
         	</ul>
         </div>
         <br clear="both" />
@@ -45,23 +68,26 @@ closedir($handle);
     <div class="follow" style="display:none;" >&nbsp;</div>
 	<article>
 	<div id="submenu"><ul class="submenu">
-        <?php
+    <?php
+        $names = array();
+        $links = array();
         $submenus = array();
-    	$file = "views/".$this->controller."/structure.xml";
+        
+    	$file = "views/".$this->controller."/structure.".$_COOKIE['language'].".xml";
 		if (file_exists($file)) {
 	    	$subentries = simplexml_load_file($file);
 	    	foreach ($subentries as $entryinfo) {
-				array_push($submenus, "".$entryinfo->name);
+				$submenus["".$entryinfo->name] = "".$entryinfo->link;
 	   		}
 	   		$i = 0;
 	   		$len = count($submenus);
 	   		$viewname = $viewModel->get('viewname');
-	   		foreach ($submenus as $submenu) {
+	   		foreach ($submenus as $name => $link) {
 	   			if ($i == 0) {
-					if ($viewModel->get('viewname') == $submenu) { echo "<li class='submenuitem active'><a href=\"$this->controller/$submenu\">$submenu</a></li>"; } else { echo "<li class='submenuitem'><a href=\"$this->controller/$submenu\">$submenu</a></li>"; }
+					if (strtolower($viewModel->get('viewname')) == strtolower($link)) { echo "<li class='submenuitem active'><a href=\"$this->controller/$link\">$name</a></li>"; } else { echo "<li class='submenuitem'><a href=\"$this->controller/$link\">$name</a></li>"; }
 	   				
 	   			} else if ($i == $len - 1) {
-	   				if ($viewModel->get('viewname') == $submenu) { echo "<a href=\"$this->controller/$submenu\"><li class='submenuitem active'>> $submenu</li></a>"; } else { echo "<a href=\"$this->controller/$submenu\"><li class='submenuitem'>> $submenu</li></a>"; }
+	   				if (strtolower($viewModel->get('viewname')) == strtolower($link)) { echo "<a href=\"$this->controller/$link\"><li class='submenuitem active'>> $name</li></a>"; } else { echo "<a href=\"$this->controller/$link\"><li class='submenuitem'>> $name</li></a>"; }
 	   			}
 	   			$i++;
 	   		}
@@ -69,6 +95,11 @@ closedir($handle);
     ?>
     </ul></div>
         <div id="content_wrapper">
+        <input type="button" id="buttonde" value="de" />
+        <input type="button" id="buttonen" value="en" /><br />
+        
+        
+        
         	<?php require($this->viewFile); ?>
         </div><!-- content_wrapper ende -->
     </article>
@@ -87,6 +118,22 @@ closedir($handle);
 <script type="text/javascript">
 var status = 0;
 $(document).bind('ready',function(){
+
+	$('#buttonde').click(function() {
+		$.getScript('lib/cookie.js', function() {
+			$.cookie('language', 'de');
+			window.location.reload()
+		});
+	});
+	$('#buttonen').click(function() {
+		$.getScript('lib/cookie.js', function() {
+			$.cookie('language', 'en');
+			window.location.reload()
+		});
+	});
+
+
+	
 	if (status == 0) {
 		$('#header #menu ul').mousemove(function(e) {
 			$('#header #menu ul').unbind('mousemove');

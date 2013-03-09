@@ -62,8 +62,8 @@ if ($urlValues['action'] == "") {
 } else {
 	$action = $urlValues['action'];
 }
-$file = "./views/".$controllerName."/structure.xml";
-$file2 = "./views/".$controllerName."/".$action.".php";
+$file = "./views/".$controllerName."/structure.".$_COOKIE['language'].".xml";
+$file2 = "./views/".$controllerName."/".$action.".".$_COOKIE['language'].".php";
 
 $headers = apache_request_headers();
 list(,,,,,,,,,$lastModified) = stat($file);

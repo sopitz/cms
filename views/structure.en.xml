@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mainentries>
+	<mainentry>
+		<name>Home</name>
+		<link>home</link>
+		<template>default/default</template>
+	</mainentry>
+	<mainentry>
+		<name>Fragen - Antworten</name>
+		<link>fragenundantworten</link>
+		<template>default/default</template>
+	</mainentry>
+	<mainentry>
+		<name>Fachwissen</name>
+		<link>fachwissen</link>
+		<template>default/default</template>
+	</mainentry>
+	<mainentry>
+		<name>Herausforderungen</name>
+		<link>herausforderungen</link>
+		<template>default/default</template>
+	</mainentry>
+	<mainentry>
+		<name>Warum extern?</name>
+		<link>warumextern</link>
+		<template>default/default</template>
+	</mainentry>
+	<mainentry>
+		<name>Zusammenarbeit</name>
+		<link>zusammenarbeit</link>
+		<template>default/default</template>
+	</mainentry>
+	<mainentry>
+		<name>Haftung</name>
+		<link>haftung</link>
+		<template>default/default</template>
+	</mainentry>
+</mainentries>

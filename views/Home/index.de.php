@@ -6,6 +6,8 @@ if ($login->is_logged_in()) {
 }
 ?>
 
+
+
 <content>
 	<h1 class="header contenteditable">Gut beraten - Vertrauen gewinnen</h1><br clear="all" />
     <p class="subheader contenteditable">Unter Vertrauen wird die Annahme verstanden, dass eine bestimmte Entwicklung einen positiven oder erwarteten Verlauf nimmt.<br />Dies möchte ich mit meiner Beratung bei Ihnen erreichen.</p>
