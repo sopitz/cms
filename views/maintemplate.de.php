@@ -73,7 +73,7 @@ closedir($handle);
         $links = array();
         $submenus = array();
         
-    	$file = "views/".$this->controller."/structure.".$_COOKIE['language'].".xml";
+    	$file = "views/".$this->controller."/structure.".Language::get().".xml";
 		if (file_exists($file)) {
 	    	$subentries = simplexml_load_file($file);
 	    	foreach ($subentries as $entryinfo) {
