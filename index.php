@@ -8,7 +8,9 @@
 /*   Last change: 20130307                                          */
 /*																	*/
 /********************************************************************/
-
+if(!isset($_COOKIE['language'])) {
+	setcookie("language", "de", time()+360000);
+}
 
 if (isset($_COOKIE['user'])) {
 	$value = $_COOKIE['user'];

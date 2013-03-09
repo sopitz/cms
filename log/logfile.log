@@ -1827,3 +1827,33 @@
 09.03.2013 17:55:35: (2) simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: 		&lt;name&gt;Fragen &amp; Antworten&lt;/name&gt; in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.en.php at line 78
 09.03.2013 17:55:35: (2) simplexml_load_file() [<a href='function.simplexml-load-file'>function.simplexml-load-file</a>]: 		              ^ in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.en.php at line 78
 09.03.2013 17:55:35: (2) Invalid argument supplied for foreach() in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.en.php at line 79
+09.03.2013 19:43:10: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 19:43:10: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+09.03.2013 19:43:10: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fragenundantworten/structure..xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 71
+09.03.2013 19:43:10: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fragenundantworten/index..php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+09.03.2013 19:43:10: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
+09.03.2013 19:43:10: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 19:43:10: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 19:43:10: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 19:43:10: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 19:43:24: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fragenundantworten/structure.de.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 71
+09.03.2013 19:43:24: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fragenundantworten/index.de.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+09.03.2013 19:43:24: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
+09.03.2013 19:43:25: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
+09.03.2013 19:44:20: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 19:44:20: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+09.03.2013 19:44:20: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fragenundantworten/structure..xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 71
+09.03.2013 19:44:20: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fragenundantworten/index..php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+09.03.2013 19:44:20: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
+09.03.2013 19:44:20: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 19:44:20: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 19:44:20: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 19:44:20: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 19:44:25: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/structure.de.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 71
+09.03.2013 19:44:25: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fachwissen/index.de.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+09.03.2013 19:44:25: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
+09.03.2013 19:44:25: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.de.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 71
+09.03.2013 19:44:25: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Error.de.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+09.03.2013 19:44:25: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
+09.03.2013 19:44:27: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
+09.03.2013 19:45:20: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
