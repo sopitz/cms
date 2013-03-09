@@ -63,7 +63,7 @@ $file2 = "./views/".$controllerName."/".$action.".".Language::get().".php";
 $headers = apache_request_headers();
 list(,,,,,,,,,$lastModified) = stat($file);
 list(,,,,,,,,,$lastModified2) = stat($file2);
-$eTag = "te-".dechex(crc32($file.$lastModified));
+$eTag = "cms-".dechex(crc32($file.$lastModified));
 if ((strpos($headers['If-None-Match'], "$eTag")) && (gmstrftime("%a, %d %b %Y %T %Z", $lastModified) == $headers['If-Modified-Since']) && (gmstrftime("%a, %d %b %Y %T %Z", $lastModified2) == $headers['If-Modified-Since'])) {
 	header('HTTP/1.1 304 Not Modified');
 	header('Cache-Control: private');
