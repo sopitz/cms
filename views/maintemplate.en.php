@@ -127,35 +127,15 @@ closedir($handle);
 </script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script type="text/javascript">
-var status = 0;
+
 $(document).bind('ready',function(){
-
-	$('#buttonde').click(function() {
-		$.getScript('lib/cookie.js', function() {
-			$.cookie('language', 'de');
-			window.location.reload()
-		});
-	});
-	$('#buttonen').click(function() {
-		$.getScript('lib/cookie.js', function() {
-			$.cookie('language', 'en');
-			window.location.reload()
-		});
+	$('body').mousemove(function() {
+		$('body').unbind('mousemove');
+		$.get('lib/loader.js');
+		$(":button").bind('mousemove');
+		$("#header #menu ul").bind('mousemove');
 	});
 
-
-	
-	if (status == 0) {
-		$('#header #menu ul').mousemove(function(e) {
-			$('#header #menu ul').unbind('mousemove');
-			$.getScript('lib/follower.js', function() {
-				status = 1;
-				$("#header #menu").bind('mousemove', function(e) {getMouse(e)});
-				$('#header #menu ul').bind('mouseenter', function(e) {following(e)});
-				$('#header #menu ul').trigger('mouseenter');
-			});
-		});
-	}
 });
 
 </script>
