@@ -78,17 +78,19 @@ if ((strpos($headers['If-None-Match'], "$eTag")) && (gmstrftime("%a, %d %b %Y %T
 	header('ETag: "'.$eTag.'"');
 	exit;
 } else {
-	
-
 	header('Cache-Control: private');
 	header('Pragma: ');
 	header('Expires: ');
 	header('Last-Modified: '.gmstrftime("%a, %d %b %Y %T %Z",$lastModified));
 	header('ETag: "'.$eTag.'"');
-	
+	ob_start();
 	$loader = new Loader();
 	$controller = $loader->createController();
 	$controller->executeAction();
+	$busca = array('/\>[^\S ]+/s','/[^\S ]+\</s','/(\s)+/s');
+	$reemplaza = array('>','<','\\1');
+	$webpage = preg_replace($busca, $reemplaza, ob_get_contents());
+	ob_end_flush();
 }
 
 
