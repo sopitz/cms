@@ -132,7 +132,7 @@ $(document).bind('ready',function(){
 	$('body').mousemove(function() {
 		$('body').unbind('mousemove');
 		$.get('lib/loader.js');
-		$(":button").bind('mousemove');
+		$(":button").bind('mouseenter');
 		$("#header #menu ul").bind('mousemove');
 	});
 
