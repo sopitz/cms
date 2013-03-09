@@ -8,15 +8,12 @@
 /*   Last change: 20130307                                          */
 /*																	*/
 /********************************************************************/
-if(!isset($_COOKIE['language'])) {
-	setcookie("language", "de", time()+360000);
-}
 
 if (isset($_COOKIE['user'])) {
 	$value = $_COOKIE['user'];
 	setcookie("user", $value, time()+3600);
 }
-
+include("classes/lang.php");
 include("classes/error.php");
 require("classes/basecontroller.php");
 require("classes/basemodel.php");
@@ -35,8 +32,6 @@ if( !function_exists('apache_request_headers') ) {
 			if( preg_match($rx_http, $key) ) {
 				$arh_key = preg_replace($rx_http, '', $key);
 				$rx_matches = array();
-				// do some nasty string manipulations to restore the original letter case
-				// this should work in most cases
 				$rx_matches = explode('_', $arh_key);
 				if( count($rx_matches) > 0 and strlen($arh_key) > 2 ) {
 					foreach($rx_matches as $ak_key => $ak_val) $rx_matches[$ak_key] = ucfirst($ak_val);
@@ -48,8 +43,6 @@ if( !function_exists('apache_request_headers') ) {
 		return( $arh );
 	}
 }
-
-
 
 $urlValues = $_GET;
 $controllerName;
@@ -64,8 +57,8 @@ if ($urlValues['action'] == "") {
 } else {
 	$action = $urlValues['action'];
 }
-$file = "./views/".$controllerName."/structure.".$_COOKIE['language'].".xml";
-$file2 = "./views/".$controllerName."/".$action.".".$_COOKIE['language'].".php";
+$file = "./views/".$controllerName."/structure.".Language::get().".xml";
+$file2 = "./views/".$controllerName."/".$action.".".Language::get().".php";
 
 $headers = apache_request_headers();
 list(,,,,,,,,,$lastModified) = stat($file);

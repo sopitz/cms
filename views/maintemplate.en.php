@@ -40,7 +40,7 @@ closedir($handle);
 		        $names = array();
 		        $links = array();
 		        $mainmenus = array();
-		    	$file = "views/structure.".$_COOKIE['language'].".xml";
+		    	$file = "views/structure.".Language::get().".xml";
 				if (file_exists($file)) {
 			    	$mainentries = simplexml_load_file($file);
 			    	foreach ($mainentries as $entryinfo) {
@@ -112,8 +112,19 @@ closedir($handle);
     </div><!-- footer ende -->
 </div><!-- wrapper ende -->
 </body>
-</html>
-<!--<script type="text/javascript" src="js/jquery-1.7.2.js"></script>-->
+<script type="text/js">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39150688-1']);
+  _gaq.push(['_setDomainName', 'cmsrevolution.de']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push (['_gat._anonymizeIp']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script type="text/javascript">
 var status = 0;
@@ -142,14 +153,10 @@ $(document).bind('ready',function(){
 				$("#header #menu").bind('mousemove', function(e) {getMouse(e)});
 				$('#header #menu ul').bind('mouseenter', function(e) {following(e)});
 				$('#header #menu ul').trigger('mouseenter');
-				//$("#header #menu ul").bind('mouseout', function (e) {
-				//	insideHeader = false;
-				//});
-				
-
 			});
-			
 		});
 	}
 });
+
 </script>
+</html>

@@ -7,26 +7,25 @@ class View {
     public function __construct($controllerClass, $action) {
     	$this->controller = str_replace("Controller", "", $controllerClass);
         $controllerName = str_replace("Controller", "", $controllerClass);
-        $this->viewFile = "views/" . $controllerName . "/" . $action . ".".$_COOKIE['language'].".php";
+        $this->viewFile = "views/" . $controllerName . "/" . $action . ".".Language::get().".php";
     }
                
     public function output($viewModel, $template = "maintemplate") {
         
-        $templateFile = "views/".$template.".".$_COOKIE['language'].".php";
+        $templateFile = "views/".$template.".".Language::get().".php";
         
         if (file_exists($this->viewFile)) {
             if ($template) {
                 if (file_exists($templateFile)) {
                     require($templateFile);
                 } else {
-                    require("views/error/badtemplate.".$_COOKIE['language'].".php");
+                    require("views/error/badtemplate.".Language::get().".php");
                 }
             } else {
                 require($this->viewFile);
             }
         } else {
-//         	echo "views/error/badview.".$_COOKIE['language'].".php";
-            require("views/error/badview.".$_COOKIE['language'].".php");
+            require("views/error/badview.".Language::get().".php");
         }
         
     }

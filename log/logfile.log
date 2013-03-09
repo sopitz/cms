@@ -1857,3 +1857,222 @@
 09.03.2013 19:44:25: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
 09.03.2013 19:44:27: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
 09.03.2013 19:45:20: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
+09.03.2013 20:31:33: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:15) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 85
+09.03.2013 20:31:33: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:15) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 86
+09.03.2013 20:31:33: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:15) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 87
+09.03.2013 20:31:33: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:15) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 88
+09.03.2013 20:31:33: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:15) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 89
+09.03.2013 20:31:55: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 69
+09.03.2013 20:31:55: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 70
+09.03.2013 20:31:55: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/structure..xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 73
+09.03.2013 20:31:55: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/index..php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 74
+09.03.2013 20:31:55: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:31:55: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:31:55: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 20:31:55: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 20:32:57: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:32:57: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:15) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 85
+09.03.2013 20:32:57: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:15) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 86
+09.03.2013 20:32:57: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:15) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 87
+09.03.2013 20:32:57: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:15) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 88
+09.03.2013 20:32:57: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:15) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 89
+09.03.2013 20:34:20: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 71
+09.03.2013 20:34:20: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+09.03.2013 20:34:20: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/structure..xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 75
+09.03.2013 20:34:20: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/index..php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:34:20: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 78
+09.03.2013 20:34:20: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:34:20: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:34:20: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 20:34:20: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 20:34:21: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/test/structure.de.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 75
+09.03.2013 20:34:21: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/test/index.de.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:34:21: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 78
+09.03.2013 20:34:41: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+09.03.2013 20:34:41: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 73
+09.03.2013 20:34:41: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/test/structure..xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:34:41: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/test/index..php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:34:41: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:34:41: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:34:41: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 20:34:41: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 20:34:42: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 62
+09.03.2013 20:34:42: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:34:42: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 79
+09.03.2013 20:34:42: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:34:42: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:34:51: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 62
+09.03.2013 20:34:51: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:34:51: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+09.03.2013 20:34:51: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 73
+09.03.2013 20:34:51: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/structure..xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:34:51: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/index..php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:34:51: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:34:51: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:34:51: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:34:51: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:34:51: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 20:34:51: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 20:34:51: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 62
+09.03.2013 20:34:51: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:34:51: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:34:51: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:35:09: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 62
+09.03.2013 20:35:09: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:35:09: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:35:09: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:35:15: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 62
+09.03.2013 20:35:15: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:35:15: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 72
+09.03.2013 20:35:15: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 73
+09.03.2013 20:35:15: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/structure..xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:35:15: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/index..php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:35:15: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:35:15: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:35:15: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:35:15: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:35:15: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 20:35:15: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 29
+09.03.2013 20:35:15: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 62
+09.03.2013 20:35:15: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:35:15: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 79
+09.03.2013 20:35:15: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:35:15: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:45:19: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 60
+09.03.2013 20:45:19: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 65
+09.03.2013 20:45:19: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:45:19: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:45:19: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:45:19: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:45:19: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:45:19: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:45:19: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:46:58: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 61
+09.03.2013 20:46:58: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 66
+09.03.2013 20:46:58: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:46:58: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:46:58: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:46:58: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:46:58: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:46:58: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:46:59: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 61
+09.03.2013 20:46:59: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 66
+09.03.2013 20:46:59: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:46:59: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:46:59: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:46:59: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:46:59: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:46:59: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:47:00: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 61
+09.03.2013 20:47:00: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 66
+09.03.2013 20:47:00: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:47:00: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:47:00: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:47:00: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:47:00: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:47:00: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:47:44: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 59
+09.03.2013 20:47:44: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 64
+09.03.2013 20:47:44: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:47:44: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:47:44: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:47:44: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:47:44: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:47:44: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:47:45: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 59
+09.03.2013 20:47:45: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 64
+09.03.2013 20:47:45: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:47:45: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:47:45: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:47:45: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:47:45: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:47:45: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:47:45: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 59
+09.03.2013 20:47:45: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 64
+09.03.2013 20:47:45: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:47:45: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:47:45: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:47:45: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:47:45: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:47:45: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:48:02: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 55
+09.03.2013 20:48:02: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 60
+09.03.2013 20:48:02: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:48:02: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:48:02: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:48:02: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:48:02: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:48:02: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:48:03: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 55
+09.03.2013 20:48:03: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 60
+09.03.2013 20:48:03: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:48:03: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:48:03: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 10
+09.03.2013 20:48:03: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 15
+09.03.2013 20:48:03: (8) Undefined variable: lang in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:48:03: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:51:24: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 50
+09.03.2013 20:51:24: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 55
+09.03.2013 20:51:24: (8) Undefined index: controller in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 13
+09.03.2013 20:51:24: (8) Undefined index: action in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/loader.php at line 21
+09.03.2013 20:51:27: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fragenundantworten/structure.de.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 64
+09.03.2013 20:51:27: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/fragenundantworten/index.de.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 65
+09.03.2013 20:51:27: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:53:27: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/structure..xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 64
+09.03.2013 20:53:27: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/index..php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 65
+09.03.2013 20:53:27: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:53:27: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:53:27: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 78
+09.03.2013 20:53:27: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 79
+09.03.2013 20:53:27: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 80
+09.03.2013 20:53:27: (2) require(views/error/badview..php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /Applications/XAMPP/xamppfiles/htdocs/cms/classes/view.php at line 28
+09.03.2013 20:53:37: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:53:37: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:53:37: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:53:37: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 78
+09.03.2013 20:53:37: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 79
+09.03.2013 20:53:37: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 80
+09.03.2013 20:53:39: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:53:39: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:53:39: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:53:39: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 78
+09.03.2013 20:53:39: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 79
+09.03.2013 20:53:39: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 80
+09.03.2013 20:53:52: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:53:52: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:53:52: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:53:52: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 78
+09.03.2013 20:53:52: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 79
+09.03.2013 20:53:52: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 80
+09.03.2013 20:53:52: (8) Undefined index: language in /Applications/XAMPP/xamppfiles/htdocs/cms/views/maintemplate.de.php at line 76
+09.03.2013 20:53:54: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:53:54: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:53:54: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:53:54: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 78
+09.03.2013 20:53:54: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 79
+09.03.2013 20:53:54: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 80
+09.03.2013 20:53:56: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:53:56: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:53:56: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:53:56: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 78
+09.03.2013 20:53:56: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 79
+09.03.2013 20:53:56: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 80
+09.03.2013 20:53:58: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:53:58: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:53:58: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:53:58: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 78
+09.03.2013 20:53:58: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 79
+09.03.2013 20:53:58: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 80
+09.03.2013 20:53:59: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:53:59: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:53:59: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:53:59: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 78
+09.03.2013 20:53:59: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 79
+09.03.2013 20:53:59: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 80
+09.03.2013 20:54:00: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
+09.03.2013 20:54:00: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 76
+09.03.2013 20:54:00: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 77
+09.03.2013 20:54:00: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 78
+09.03.2013 20:54:00: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 79
+09.03.2013 20:54:00: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/classes/lang.php:9) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 80
+09.03.2013 20:54:05: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 67
