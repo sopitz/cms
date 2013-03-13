@@ -73,7 +73,7 @@ closedir($handle);
         $links = array();
         $submenus = array();
         
-    	$file = "views/".$this->controller."/structure.".$_COOKIE['language'].".xml";
+    	$file = "views/".$this->controller."/structure.".Language::get().".xml";
 		if (file_exists($file)) {
 	    	$subentries = simplexml_load_file($file);
 	    	foreach ($subentries as $entryinfo) {
@@ -97,8 +97,8 @@ closedir($handle);
         <div id="content_wrapper">
         <input type="button" id="buttonde" value="de" />
         <input type="button" id="buttonen" value="en" /><br />
-        
-        
+        <!-- gotta change that back to the footer -->
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         
         	<?php require($this->viewFile); ?>
         </div><!-- content_wrapper ende -->
@@ -125,18 +125,13 @@ closedir($handle);
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 </script>
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script type="text/javascript">
 
+<script type="text/javascript">
 $(document).bind('ready',function(){
-	$('body').mousemove(function() {
-		$('body').unbind('mousemove');
+	$('body').one('mousemove', function() {
 		$.get('lib/loader.js');
-		$(":button").bind('mouseenter');
-		$("#header #menu ul").bind('mousemove');
 	});
 
 });
-
 </script>
 </html>

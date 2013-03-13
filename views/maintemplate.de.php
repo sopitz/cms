@@ -127,13 +127,11 @@ closedir($handle);
 </script>
 
 <script type="text/javascript">
-var loaderStatus = 0;
 $(document).bind('ready',function(){
 	$('body').one('mousemove', function() {
 		$.get('lib/loader.js');
 	});
 
 });
-
 </script>
 </html>
