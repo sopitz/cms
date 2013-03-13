@@ -336,32 +336,36 @@ window.Mercury = {
     // This is a nice way to add functionality, when the behaviors aren't region specific.  These can be triggered by a
     // button, or manually with `Mercury.trigger('action', {action: 'barrelRoll'})`
     globalBehaviors: {
-      exit: function() { window.location.href = this.iframeSrc() },
-      barrelRoll: function() { $('body').css({webkitTransform: 'rotate(360deg)'}) },
+      exit: function() { window.location.href = this.iframeSrc(); },
+      barrelRoll: function() { $('body').css({webkitTransform: 'rotate(360deg)'}); },
 	  
 	  
 	  save: function() {
-		   var value = $('#mercury_iframe').contents().find('#content').html()
-		   //var pagenum = location.pathname.match(/\/\/(.*)/);
-		   var url = location.pathname.split("/");
-		   console.log(url);
-		   //$.cookie('the_cookie', 'the_value');
+		  //var pagenum = location.pathname.match(/\/\/(.*)/);
+		  //var url = location.pathname.split("/");
+		  //console.log(url);
+		  //$.cookie('the_cookie', 'the_value');
+		  var args = new Object();
+		  args.value = $('#mercury_iframe').contents().find('content').html();
+		  args.url = location.href.replace($('head base').attr('href'), "").split("?").slice(0,-1);
+		  console.log(args.url);
+		  var json = JSON.stringify(args);
+		  
 		  $.ajax({
 			  type: "POST",
-			  url: "submenu.php",
+			  url: "ajaxcontroller.php",
 			  data: {
-				  action: "content",
-				  main: url[1],
-				  subm: url[2],
-				  value: value
+				   controller: "mercury",
+				   action: "save",
+				   args: json
 			  },
 			  success: function() { 
-				  Mercury.trigger('toggle:interface');
-				  $('.standart #content').attr('contenteditable', 'true');
-				  $('.standart #content').focus();
-				  $('.standart #content').off('click');
+//				  Mercury.trigger('toggle:interface');
+//				  $('.standart #content').attr('contenteditable', 'true');
+//				  $('.standart #content').focus();
+//				  $('.standart #content').off('click');
 			  }
-		  })
+		  });
 	  }
       		
       },

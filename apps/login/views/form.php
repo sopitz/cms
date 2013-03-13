@@ -5,8 +5,9 @@
 		<input type="button" id="submit_login" value="login" />
 	</form>
 	<script type="text/javascript">
-	$(document).ready(function() {
+	//$(document).bind('ready',function(){
 		$("#submit_login").click(function() {
+			console.log("doing login");
 			var args = new Object();
 			args.pwd = $("form#login input#pwd").val();
 			args.user = $("form#login input#user").val();
@@ -42,7 +43,7 @@
 				}
 			});
 		});
-	});
+	//});
 	
 	 </script>
  </div>
