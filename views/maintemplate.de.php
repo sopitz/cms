@@ -12,7 +12,7 @@ closedir($handle);
 <html lang="de">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<base href="http://localhost/cms/">
+<base href="http://datenschutz.cmsrevolution.de">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="<?php echo $viewModel->get('description'); ?>">
 <meta name="keywords" content="<?php echo $viewModel->get('keywords'); ?>">
@@ -141,7 +141,7 @@ $(document).bind('ready',function(){
 
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-39150688-1']);
-  _gaq.push(['_setDomainName', $('head base').attr('href')]);
+  _gaq.push(['_setDomainName', 'datenschutz.cmsrevolution.de']);
   _gaq.push(['_trackPageview']);
   _gaq.push(['_gat._anonymizeIp']);
 
