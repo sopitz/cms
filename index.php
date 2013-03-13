@@ -88,6 +88,4 @@ if ((strpos($headers['If-None-Match'], "$eTag")) && (gmstrftime("%a, %d %b %Y %T
 	$webpage = preg_replace($busca, $reemplaza, ob_get_contents());
 	ob_end_flush();
 }
-
-
 ?>
