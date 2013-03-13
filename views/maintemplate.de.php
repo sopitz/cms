@@ -25,6 +25,7 @@ closedir($handle);
 
 <link href="views/<?php echo $this->controller?>/<?php echo $viewModel->get('css'); ?>" rel="stylesheet"></link>
 <!--<script type="text/javascript" src="lib/jquery-1.7.2.js"></script> -->
+
 </head>
 
 <body>
@@ -97,8 +98,6 @@ closedir($handle);
         <div id="content_wrapper">
         <input type="button" id="buttonde" value="de" />
         <input type="button" id="buttonen" value="en" /><br />
-        <!-- gotta change that back to the footer -->
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
         
         	<?php require($this->viewFile); ?>
         </div><!-- content_wrapper ende -->
@@ -112,6 +111,9 @@ closedir($handle);
     </div><!-- footer ende -->
 </div><!-- wrapper ende -->
 </body>
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 <script type="text/js">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-39150688-1']);
@@ -130,8 +132,10 @@ closedir($handle);
 $(document).bind('ready',function(){
 	$('body').one('mousemove', function() {
 		$.get('lib/loader.js');
+		<?php echo "\$.get('views/".$this->controller."/".$viewModel->get('js')."');"?>
 	});
 
 });
 </script>
+
 </html>
