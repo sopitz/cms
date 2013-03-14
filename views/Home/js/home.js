@@ -8,7 +8,7 @@
  			$('.'+str).off('click');
  			
 			console.log($('window').children().children());
- 			//if(window.document.getElementsByClassName('mercury-toolbar-container').item(0).style.item(1) == "none") {
- 			Mercury.trigger('toggle:interface'); 
+ 			//if (mercuryInstance.visible == false) {
+ 				Mercury.trigger('toggle:interface'); 
  			//}
  		}); 

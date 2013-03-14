@@ -2331,3 +2331,34 @@
 13.03.2013 18:12:49: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
 13.03.2013 18:29:45: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
 13.03.2013 18:30:49: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+13.03.2013 18:45:39: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+13.03.2013 18:45:39: (8) Use of undefined constant getView - assumed 'getView' in /Applications/XAMPP/xamppfiles/htdocs/cms/views/Edit/index.de.php at line 3
+13.03.2013 18:45:42: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+13.03.2013 18:45:50: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+13.03.2013 18:49:56: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+13.03.2013 19:27:30: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:06:05: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:06:19: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:06:31: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/home/help.en.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 66
+14.03.2013 05:06:31: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:06:35: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:09:20: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/structure.en.xml in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 65
+14.03.2013 05:09:20: (2) stat() [<a href='function.stat'>function.stat</a>]: stat failed for ./views/views/Home.en.php in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 66
+14.03.2013 05:09:20: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:09:25: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:10:47: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:10:57: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:10:58: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:11:17: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:11:22: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:11:23: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:11:32: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 05:45:25: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 06:26:00: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 16:58:29: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 16:58:37: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 16:58:59: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 16:59:06: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 16:59:07: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 17:09:13: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
+14.03.2013 17:09:14: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 68
