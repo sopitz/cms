@@ -8,6 +8,11 @@
 		<email>simon@opitzfamily.de</email>
 		<pwdchanged>18.02.2013</pwdchanged>
 		<group>Administrator</group>
+		<lastlogin></lastlogin>
+		<failedlogins></failedlogins>
+		<active></active>
+		<activeuntil></activeuntil>
+		<sessionID></sessionID>
 	</user>
 </users>
 
