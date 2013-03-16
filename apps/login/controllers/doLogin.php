@@ -3,8 +3,8 @@ class DoLogin {
 	
 	private $user_exists = 0;
 	private $password_correct = -1;
-	
 	private $user_array = array();
+	private $counter = 0;
 	
 	public function _do($user) {
 		$username = $user->getName();
@@ -12,8 +12,11 @@ class DoLogin {
 		$file = "lib/users.xml";
 		if (file_exists($file)) {
 			$users = simplexml_load_file($file);
+			$temp = 0;
  			foreach ($users as $userdata) {
+ 				$temp++;
 				if ($userdata->name == $username) {
+					$this->counter = $temp;
 					$user_array['name'] = "".$userdata->name;
 					$user_array['email'] = "".$userdata->email;
 					$user_array['username'] = "".$userdata->username;
@@ -32,7 +35,13 @@ class DoLogin {
  		   	} elseif ($this->password_correct == 0) {
  		   		echo "password_incorrect";
  		   	} elseif ($this->password_correct == 1) {
- 		   		setcookie("user", serialize($user_array), time()+3600);
+				$sessionID = md5(uniqid(microtime()) . $_SERVER['REMOTE_ADDR'] . $_SERVER['HTTP_USER_AGENT']);
+ 		   		$cookiedata = array();
+ 		   		$cookiedata['id'] = $sessionID;
+ 		   		$cookiedata['last_activity'] = time();
+ 		   		$cookiedata['#'] = $this->counter;
+ 		   		setcookie("session", serialize($cookiedata), time()+7200, '/');
+ 		   		$user->setSessionID($sessionID, $this->counter);
  		   		echo "logged_in";
  		   	} elseif ($this->password_correct == -1){
  		   		echo "something_went_wrong";

@@ -8,13 +8,22 @@ class User {
 	private $group;
 	private $lastlogin;
 	private $failedlogins;
-	private $active;
+	private $asctive;
 	private $activeuntil;
 	private $sessionID;
 	
-	public function __construct($name, $username = null, $password, $email, $pwdchanged = null, $group = "user", $lastlogin = null, $failedlogins = 0, $active = 1, $activeuntil = 0, $sessionID = null) {
-		$this->name = $name;
-		$this->pwd = $pwd;
+	public function __construct($name, $username, $password, $email, $pwdchanged = null, $group  = null, $lastlogin = null, $failedlogins = null, $active = null, $activeuntil = null, $sessionID = null) {
+		$this->setName($name);
+		$this->setUsername($username);
+		$this->setPassword($password);
+		$this->setEmail($email);
+		$this->setPwdchanged($pwdchanged);
+		$this->setGroup($group);
+		$this->setLastlogin($lastlogin);
+		$this->setFailedlogins($failedlogins);
+		$this->setActive($active);
+		$this->setActiveuntil($activeuntil);
+		$this->setSessionID($sessionID, null);
 	}
 	
 	public function getName() { return $this->name; }
@@ -38,6 +47,15 @@ class User {
 	public function setFailedlogins($x) { $this->failedlogins = $x; }
 	public function setActive($x) { $this->active = $x; }
 	public function setActiveuntil($x) { $this->activeuntil = $x; }
-	public function setSessionID($x) { $this->sessionID = $x; }
+	public function setSessionID($x, $counter) {
+		$this->sessionID = $x;
+		$file = "lib/users.xml";
+		$users = simplexml_load_file($file);
+		$users->user[($counter-1)]->sessionID = $x;
+
+		$fp = fopen($file, 'w');
+		fwrite($fp, $users->asXML());
+		fclose($fp);
+	}
 }
 ?>

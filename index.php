@@ -9,10 +9,8 @@
 /*																	*/
 /********************************************************************/
 
-if (isset($_COOKIE['user'])) {
-	$value = $_COOKIE['user'];
-	setcookie("user", $value, time()+3600);
-}
+
+
 include("classes/lang.php");
 include("classes/error.php");
 require("classes/basecontroller.php");
@@ -22,7 +20,16 @@ require("classes/viewmodel.php");
 require("classes/loader.php");
 
 
+$file = "lib/users.xml";
+$users = simplexml_load_file($file);
+$cookiedata = unserialize($_COOKIE['session']);
 
+if (isset($cookiedata) && (time() - $cookiedata['last_activity'] > 3600) || ($users->user[($cookiedata['#']-1)]->sessionID != $cookiedata['id'])) {
+	setcookie("session", "", time()-3600, '/');
+} else {
+	$cookiedata['last_activity'] = time();
+	setcookie("session", serialize($cookiedata), '/');
+}
 
 if( !function_exists('apache_request_headers') ) {
 

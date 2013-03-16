@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <users>
 	<user>
 		<name>Gernot Opitz</name>
@@ -8,11 +7,10 @@
 		<email>simon@opitzfamily.de</email>
 		<pwdchanged>18.02.2013</pwdchanged>
 		<group>Administrator</group>
-		<lastlogin></lastlogin>
-		<failedlogins></failedlogins>
-		<active></active>
-		<activeuntil></activeuntil>
-		<sessionID></sessionID>
+		<lastlogin/>
+		<failedlogins/>
+		<active/>
+		<activeuntil/>
+		<sessionID>13d2f887a9205433e32097b14936a42a</sessionID>
 	</user>
 </users>
-

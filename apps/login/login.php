@@ -11,7 +11,7 @@ class Login {
 		require("models/User.php");
 		
 		$data = json_decode($args);
-		$user = new User($data->user, $data->pwd);
+		$user = new User($data->user, $data->user, $data->pwd, $data->user);
 		DoLogin::_do($user);
 	}
 	

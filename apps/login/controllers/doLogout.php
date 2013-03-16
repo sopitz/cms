@@ -4,7 +4,7 @@ class DoLogout {
 	
 	
 	function _do() {
-		setcookie("user", $value, time()-3600);
+		setcookie("session", "", time()-3600);
 		baseController::redirect("home", "");
 	}
 	
