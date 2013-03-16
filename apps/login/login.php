@@ -1,4 +1,23 @@
 <?php
+/*
+ *   Copyright (C) cmsrevolution.de - All Rights Reserved!
+*   Unauthorized copying of this file, via any medium is strictly prohibited
+*   Proprietary and confidential
+*   Written by cmsrevolution.de, March 2013
+*
+*   @file: login.php
+*   @author: sopitz
+*   @created at: 2013-03-16 18:28:40 pm
+*   @last edited by: sopitz
+*   @file-version: 0.5.1
+*
+*
+*   ToDos:
+*   - make passwort encrypted
+*   - make login possbile with username and emailadress
+*   
+*/
+
 class Login {
 	public function __call($name, $arguments) {
 		//do all the rights-management stuff

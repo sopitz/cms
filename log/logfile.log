@@ -3900,3 +3900,9 @@
 16.03.2013 17:06:38: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:27) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 95
 16.03.2013 17:06:38: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:27) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 96
 16.03.2013 17:06:38: (2) Cannot modify header information - headers already sent by (output started at /Applications/XAMPP/xamppfiles/htdocs/cms/index.php:27) in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 97
+16.03.2013 17:07:44: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 75
+16.03.2013 17:07:59: (2) setcookie() expects parameter 3 to be long, string given in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 31
+16.03.2013 17:07:59: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 75
+16.03.2013 17:08:01: (2) setcookie() expects parameter 3 to be long, string given in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 31
+16.03.2013 17:08:01: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 75
+16.03.2013 17:08:17: (2) setcookie() expects parameter 3 to be long, string given in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 31

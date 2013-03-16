@@ -1,13 +1,20 @@
 <?php
-
-/********************************************************************/
-/*																	*/
-/*       Project: CMS REVOLUTION                                    */
-/*       Authors: sopitz                                            */
-/*          File: index.php											*/
-/*   Last change: 20130307                                          */
-/*																	*/
-/********************************************************************/
+/*
+ *   Copyright (C) cmsrevolution.de - All Rights Reserved!
+ *   Unauthorized copying of this file, via any medium is strictly prohibited
+ *   Proprietary and confidential
+ *   Written by cmsrevolution.de, March 2013
+ *
+ *   @file: index.php
+ *   @author: sopitz
+ *   @created at: 2013-03-12 10:44:40 pm
+ *   @last edited by: sopitz
+ *   @file-version: 1.2.1
+ *   
+ *   
+ *   ToDos:
+ *   - make all actions a method-call
+ */
 
 
 
@@ -20,6 +27,7 @@ require("classes/viewmodel.php");
 require("classes/loader.php");
 
 
+// check users session
 $file = "lib/users.xml";
 $users = simplexml_load_file($file);
 $cookiedata = unserialize($_COOKIE['session']);
@@ -31,6 +39,8 @@ if (isset($cookiedata) && (time() - $cookiedata['last_activity'] > 3600) || ($us
 	setcookie("session", serialize($cookiedata), '/');
 }
 
+
+// add apache_request_headers function if not existing
 if( !function_exists('apache_request_headers') ) {
 
 	function apache_request_headers() {
@@ -52,6 +62,7 @@ if( !function_exists('apache_request_headers') ) {
 	}
 }
 
+// check for modified date
 $urlValues = $_GET;
 $controllerName;
 $action;
@@ -72,6 +83,8 @@ $headers = apache_request_headers();
 list(,,,,,,,,,$lastModified) = stat($file);
 list(,,,,,,,,,$lastModified2) = stat($file2);
 $eTag = "cms-".dechex(crc32($file.$lastModified));
+
+// return 304 or 200
 if ((strpos($headers['If-None-Match'], "$eTag")) && (gmstrftime("%a, %d %b %Y %T %Z", $lastModified) == $headers['If-Modified-Since']) && (gmstrftime("%a, %d %b %Y %T %Z", $lastModified2) == $headers['If-Modified-Since'])) {
 	header('HTTP/1.1 304 Not Modified');
 	header('Cache-Control: private');
