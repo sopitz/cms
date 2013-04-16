@@ -3916,3 +3916,8 @@
 20.03.2013 12:53:28: (2) setcookie() expects parameter 3 to be long, string given in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 39
 20.03.2013 12:54:14: (8) Undefined index: session in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 33
 20.03.2013 12:54:14: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 88
+16.04.2013 21:15:03: (8) Undefined index: session in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 33
+16.04.2013 21:17:01: (8) Undefined index: session in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 33
+16.04.2013 21:19:02: (8) Undefined index: session in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 33
+16.04.2013 21:19:48: (8) Undefined index: session in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 33
+16.04.2013 21:19:55: (8) Undefined index: If-None-Match in /Applications/XAMPP/xamppfiles/htdocs/cms/index.php at line 88

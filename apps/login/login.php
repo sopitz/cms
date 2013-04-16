@@ -31,7 +31,9 @@ class Login {
 		
 		$data = json_decode($args);
 		$user = new User($data->user, $data->user, $data->pwd, $data->user);
-		DoLogin::_do($user);
+		$dologin = new DoLogin();
+		$dologin->_do($user);
+// 		DoLogin::_do($user);
 	}
 	
 	private function doLogout($args) {
