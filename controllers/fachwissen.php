@@ -1,11 +1,11 @@
 <?php
-class HomeController extends BaseController
+class FachwissenController extends BaseController
 {
     public function __construct($action, $urlValues) {
         parent::__construct($action, $urlValues);
         
-        require("models/home.php");
-        $this->model = new HomeModel();
+        require("models/fachwissen.php");
+        $this->model = new FachwissenModel();
     }
     
 //     protected function hilfe() {

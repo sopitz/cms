@@ -24,7 +24,7 @@ closedir($handle);
 <link href="views/css/base.css" rel="stylesheet" type="text/css"></link>
 
 <link href="views/<?php echo $this->controller?>/<?php echo $viewModel->get('css'); ?>" rel="stylesheet"></link>
-<!--<script type="text/javascript" src="lib/jquery-1.7.2.js"></script> -->
+<script type="text/javascript" src="lib/jquery-1.7.2.js"></script>
 
 </head>
 
@@ -88,7 +88,7 @@ closedir($handle);
 					if (strtolower($viewModel->get('viewname')) == strtolower($link)) { echo "<li class='submenuitem active'><a href=\"$this->controller/$link\">$name</a></li>"; } else { echo "<li class='submenuitem'><a href=\"$this->controller/$link\">$name</a></li>"; }
 	   				
 	   			} else if ($i == $len - 1) {
-	   				if (strtolower($viewModel->get('viewname')) == strtolower($link)) { echo "<a href=\"$this->controller/$link\"><li class='submenuitem active'>> $name</li></a>"; } else { echo "<a href=\"$this->controller/$link\"><li class='submenuitem'>> $name</li></a>"; }
+	   				if (strtolower($viewModel->get('viewname')) == strtolower($link)) { echo ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=\"$this->controller/$link\"><li class='submenuitem active'>$name</li></a>"; } else { echo ">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href=\"$this->controller/$link\"><li class='submenuitem'>$name</li></a>"; }
 	   			}
 	   			$i++;
 	   		}
@@ -96,8 +96,8 @@ closedir($handle);
     ?>
     </ul></div>
         <div id="content_wrapper">
-        <input type="button" id="buttonde" value="de" />
-        <input type="button" id="buttonen" value="en" /><br />
+        <!-- <input type="button" id="buttonde" value="de" />
+        <input type="button" id="buttonen" value="en" /><br /> -->
         
         	<?php require($this->viewFile); ?>
         </div><!-- content_wrapper ende -->

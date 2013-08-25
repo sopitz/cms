@@ -1,5 +1,5 @@
 <?php
-class HomeModel extends BaseModel {
+class FachwissenModel extends BaseModel {
     public function index() {   
         $this->viewModel->set(
         		"pagename", "index",

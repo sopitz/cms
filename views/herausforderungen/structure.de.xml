@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<subentries type="documentary">
+	<subentry>
+		<name>Lösung</name>
+		<link>loesung</link>
+		<template>default/default</template>
+	</subentry>
+	<subentry>
+		<name>Vorteil</name>
+		<link>vorteil</link>
+		<template>default/default</template>
+	</subentry>
+</subentries>

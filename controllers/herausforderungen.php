@@ -1,11 +1,11 @@
 <?php
-class HomeController extends BaseController
+class HerausforderungenController extends BaseController
 {
     public function __construct($action, $urlValues) {
         parent::__construct($action, $urlValues);
         
-        require("models/home.php");
-        $this->model = new HomeModel();
+        require("models/herausforderungen.php");
+        $this->model = new HerausforderungenModel();
     }
     
 //     protected function hilfe() {

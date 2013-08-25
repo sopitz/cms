@@ -1,11 +1,11 @@
 <?php
-class HomeController extends BaseController
+class FragenundantwortenController extends BaseController
 {
     public function __construct($action, $urlValues) {
         parent::__construct($action, $urlValues);
         
-        require("models/home.php");
-        $this->model = new HomeModel();
+        require("models/fragenundantworten.php");
+        $this->model = new FragenundantwortenModel();
     }
     
 //     protected function hilfe() {
