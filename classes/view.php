@@ -7,7 +7,7 @@ class View {
     public function __construct($controllerClass, $action) {
     	$this->controller = str_replace("Controller", "", $controllerClass);
         $controllerName = str_replace("Controller", "", $controllerClass);
-        $this->viewFile = "views/" . $controllerName . "/" . $action . ".".Language::get().".php";
+        $this->viewFile = "views/" . strtolower($controllerName) . "/" . $action . ".".Language::get().".php";
     }
                
     public function output($viewModel, $template = "maintemplate") {

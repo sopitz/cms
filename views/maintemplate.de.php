@@ -12,7 +12,7 @@ closedir($handle);
 <html lang="de">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<base href="http://datenschutzmitsystem.de/">
+<base href="http://datenschutzmitsystem.de">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="<?php echo $viewModel->get('description'); ?>">
 <meta name="keywords" content="<?php echo $viewModel->get('keywords'); ?>">
@@ -23,7 +23,7 @@ closedir($handle);
 
 <link href="views/css/base.css" rel="stylesheet" type="text/css"></link>
 
-<link href="views/<?php echo $this->controller?>/<?php echo $viewModel->get('css'); ?>" rel="stylesheet"></link>
+<link href="views/<?php echo strtolower($this->controller) ?>/<?php echo $viewModel->get('css'); ?>" rel="stylesheet"></link>
 <script type="text/javascript" src="lib/jquery-1.7.2.js"></script>
 
 </head>
@@ -74,7 +74,7 @@ closedir($handle);
         $links = array();
         $submenus = array();
         
-    	$file = "views/".$this->controller."/structure.".Language::get().".xml";
+    	$file = "views/".strtolower($this->controller)."/structure.".Language::get().".xml";
 		if (file_exists($file)) {
 	    	$subentries = simplexml_load_file($file);
 	    	foreach ($subentries as $entryinfo) {
@@ -132,7 +132,7 @@ closedir($handle);
 $(document).bind('ready',function(){
 	$('body').one('mousemove', function() {
 		$.get('lib/loader.js');
-		<?php echo "\$.get('views/".$this->controller."/".$viewModel->get('js')."');"?>
+		<?php echo "\$.get('views/".strtolower($this->controller)."/".$viewModel->get('js')."');"?>
 	});
 
 });
