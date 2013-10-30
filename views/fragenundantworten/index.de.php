@@ -9,7 +9,7 @@ Muss ich einzelne Daten jetzt oder später löschen?<br />
 Wer ist in unserer Organisation verantwortlich für den Datenschutz?<br />
 
 Benötige ich einen Datenschutzbeauftragten?</p>
-    <img class="picture" src="views/Home/img/temp.jpg" width="310" /><br clear="all" />
+    <img class="picture" src="views/fragenundantworten/img/temp.jpg" width="310" /><br clear="all" />
     <p class="text"="true" data-mercury="full">Eine Antwort auf die erste der o. g. Fragen gebe ich Ihnen jetzt gleich. In der Regel lautet die Antwort: Ja, sie benötigen eine Verfahrensverzeichnis. Dieses Verzeichnis muss bestimmten gesetzlichen Anforderungen genügen.
 
 Wenn diese oder ähnliche Fragen SIE beschäftigen oder SIE noch mehr Antworten suchen, sollten wir miteinander ins Gespräch kommen. Nehmen Sie mit mir Kontakt auf. Die Erstberatung ist unverbindlich und kostenfrei.
