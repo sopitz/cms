@@ -12,7 +12,7 @@ closedir($handle);
 <html lang="de">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<base href="http://iss-opitz.de/datenschutz">
+<base href="http://datenschutzmitsystem.de/">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="description" content="<?php echo $viewModel->get('description'); ?>">
 <meta name="keywords" content="<?php echo $viewModel->get('keywords'); ?>">
@@ -106,7 +106,7 @@ closedir($handle);
     <br clear="all" />
     
     <div id="footer">
-        <div id="menu">Kontakt  |   Impressum</div>
+        <div id="menu"><a href="kontakt">Kontakt</a>  |   <a href="impressum">Impressum</a>  |   <a href="datenschutzerklaerung">Datenschutzerklärung</a></div>
     	<div id="copyright"><content>&copy; Gernot Opitz, Dresden, 2013 </content></div>
     </div><!-- footer ende -->
 </div><!-- wrapper ende -->

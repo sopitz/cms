@@ -16,6 +16,14 @@ class HerausforderungenController extends BaseController
         $this->view->output($this->model->index());
     }
     
+    protected function loesung() {
+    	$this->view->output($this->model->loesung());
+    }
+    
+    protected function vorteil() {
+    	$this->view->output($this->model->vorteil());
+    }
+    
 }
 
 ?>

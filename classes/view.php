@@ -13,7 +13,6 @@ class View {
     public function output($viewModel, $template = "maintemplate") {
         
         $templateFile = "views/".$template.".".Language::get().".php";
-        
         if (file_exists($this->viewFile)) {
             if ($template) {
                 if (file_exists($templateFile)) {
